@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^(image/|statics/|data/|bionapdata/)/*?$ - [F,L]
+RewriteRule ^(image/extra|image/icon|image/index|image/lightbox}image/members|image/research)/*?$ - [F,L]
+RewriteRule ^(statics/css|statics/bootstrap|statics/js|statics/html)/*?$ - [F,L]
+RewriteRule ^(statics|data|bionapdata)/*?$ - [F,L]
+RewriteRule ^(data/extra|data/archievement|data/publications)/*?$ - [F,L]
+

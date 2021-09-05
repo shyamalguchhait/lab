@@ -1,0 +1,146 @@
+@font-face{
+  font-family: "Comic Sans MS";
+  src: url("fonts/comic-sans-ms/COMIC.TTF") format("TrueType");
+  font-weight: normal;
+}
+@font-face{
+  font-family: "Comic Sans MS";
+  src: url("fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf") format("TrueType");
+  font-weight: bold;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(1, 1, 53);
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 104px;
+  border-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Comic Sans MS";
+  color:white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30x;
+}
+  
+  .main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 900px){
+    .sidenav{
+        display: none;
+    }
+    .main{
+        margin-left: 10px;
+    }
+    .row-img{
+      padding-left: 0px;
+    }
+  }
+
+  .fill-0{
+      width:100%;
+      padding-top: 0!important;
+      height: auto;
+  }
+
+  .height img{
+    width:auto;
+    height:100px;
+   }
+
+   .main {
+    font-family: "Comic Sans MS";
+   }
+   .main h2,h3{
+      font-weight: bold;
+   }
+   .col-sm p{
+      font-size: 20px !important;
+   }
+   .col-sm p> ol,li{
+     font-size: 20px;
+   }
+.main img{
+  height:150px;
+  border-radius: 50%;
+}
+.main >.row >.col-sm-9 > ul > li> a> img{
+  width:20px;
+  height:20px;
+}
+.img-icon img{
+  /*border-radius: 50%;*/
+  height: 20px;
+  width:20px;
+}
+.padding-0{
+  padding: 0 !important;
+}
+.padding-0 img{
+  width:100%;
+  height:200px;
+}
+.row-img{
+  padding-left: 250px;
+}
+.row-img>.col-sm{
+  padding-left: 0;
+  padding-right: 0;
+}
+.h2{
+  color: blue;
+  text-align: left;
+  font-weight: bold;
+}
+.col-sm p{
+  color: black !important;
+  font-size: 20px;
+}
+.col-sm h3{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.col-sm{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img-icon a:hover{
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+.img-icon a{
+  color: red;
+}
+@media screen and (max-width: 900px){
+  .row-img{
+    padding-left: 0px;
+  }
+}
