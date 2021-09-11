@@ -1,366 +1,144 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include "meta.php" ?>
-    <title>BioNaP Group-IISER Kolkata: Members</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="statics/css/members.css" type="text/css">
-    <link rel="shortcut icon" href="image/logo.png">
+    <title>Members</title>
+    <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
+    <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+    <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./static/css/members.css" type="text/css">
     <script>
-        /*$(document).ready(function() {
+        $(document).ready(function() {
             $('#someLinkId').click();
-         });*/
+        });
     </script>
+
 </head>
+
 <body>
-<?php include "menu.php" ?>
-<?php require "path.php" ?>
-<div class="sidenav">
-    <a href="#groupleader">Group leader</a>
-    <a href="#currentmembers">Current members</a>
-    <a href="#formerphd">Former PhD</a>
-    <a href="#formerstudents">Former Students</a>
-</div>
-
-
-<div class="main">
-    <div class="container mt-3">
-        <h2 id="groupleader">Group leader</h2>
-        <p></p>
-        <?php
-            $path=$pathmem;
-            $folder="/grplead/";
-            $array=scandir($path.$folder);
-            $list=count($array);
-            for ($i=2; $i<$list; $i++){
-                $fil=fopen($path.$folder.$array[$i]."/data.txt","r");
-                $data=fgets($fil);
-                $name=strtok($data,"`");
-                $qualification=strtok("`");
-                $email=strtok("`");
-                $webpage=strtok("`");
-                $FB=strtok("`");
-                $tw=strtok("`");
-                $fill=strtok("`");
-                fclose($fil);
-            
-        
-
-                if ($i%2 == 0|| $i%2 == 1){
-                    echo '<div class="row">
-                        <div class="col-sm">';
-                    if ($qualification=="#"){
-                        echo '<h3>'.$name.'</h3>'; 
-                    }
-                    else{
-                        echo '<h3>'.$name.','.$qualification.'</h3></div>';
-                    }
-                    echo'<div class="row">
-                            <div class="col-sm-3">
-                                <div class="container">
-                                <img src="image/members/img_'.$name.'.jpg" >
+    <?php include "menu.php"; ?>
+    <?php include "path.php"; ?>
+    <div class="main">
+        <div class="container">
+            <div>
+                <h2>Group Leader</h2>
+                <p></p>
+                <?php
+                $path = $pathmem;
+                $folder = "/grplead/";
+                $array = scandir($path . $folder);
+                $list = count($array);
+                for ($i = 2; $i < $list; $i++) {
+                    $fil = fopen($path . $folder . $array[$i] . "/data.txt", "r");
+                    $data = fgets($fil);
+                    $name = strtok($data, "`");
+                    $qualification = strtok("`");
+                    $email = strtok("`");
+                    $webpage = strtok("`");
+                    $FB = strtok("`");
+                    $tw = strtok("`");
+                    $fill = strtok("`");
+                    fclose($fil);
+                ?>
+                    <?php if ($i % 2 == 0) { ?>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="pf-img">
+                                    <img src="./image/members/img_<?php echo $name ?>.jpg" alt="<?php echo $name ?>">
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <ul>';
-                                echo '<div class="img-icon">';
-                                    if ($webpage != "#"){ 
-                                        
-                                        echo '<li><a href=' .$webpage. '> <img src="image/icon/domain.png">Webpage </a></li>';
-                                    }
-                                        
-                                    if ($FB != "#"){ 
-                                        echo '<li><a href=' .$FB. '><img src="image/icon/Facebook-logo-500x350.png"> Facebook </a></li>';
-                                    }
-                                    if ($tw != "#"){ 
-                                        echo '<li><a href=' .$tw. '><img src="image/icon/twitter-icon-circle-blue-logo-preview.png"> Twitter </a></li>';
-                                    }
-                                echo '</div>';
-                    echo      '<ul>
-                            <div>
-                        </div></div>';              
-                
-                    echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
-                    echo'</div>
-                        </div>';
-                }
-            }
-        ?>
-    </div>
-</div>
-<div class="main">
-    <div class="container mt-3">
-        <h2 id="currentmembers">Grad students</h2>
-        <p></p>
-        <?php
-            $folder="/grad/";
-            $array=scandir($path.$folder);
-            $list=count($array);
-            for ($i=2; $i<$list; $i++){
-                $fil=fopen($path.$folder.$array[$i]."/data.txt","r");
-                $data=fgets($fil);
-                $name=strtok($data,"`");
-                $qualification=strtok("`");
-                $email=strtok("`");
-                $webpage=strtok("`");
-                $FB=strtok("`");
-                $tw=strtok("`");
-                $fill=strtok("`");
-                fclose($fil);
-            
-        
-
-                if ($i%2 == 0|| $i%2 ==1){
-                    echo '<div class="row">
-                        <div class="col-sm">';
-                    if ($qualification=="#"){
-                        echo '<h3>'.$name.'</h3>'; 
-                    }
-                    else{
-                        echo '<h3>'.$name.','.$qualification.'</h3></div>';
-                    }
-                    echo'<div class="row">
-                            <div class="col-sm-3">
-                                <img src="image/members/img_'.$name.'.jpg" >
+                            <div class="col-sm">
+                                <div class="info">
+                                    <div class="name">
+                                        <?php if ($qualification == "#") { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } else { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-9">
-                                <ul>';
-                                echo '<div class="img-icon">';
-                                    if ($webpage != "#"){ 
-                                        echo '<li><a href=' .$webpage. '> <img src="image/icon/domain.png">Webpage </a></li>';
-                                    }
-                                    if ($FB != "#"){ 
-                                        echo '<li><a href=' .$FB. '><img src="image/icon/Facebook-logo-500x350.png"> Facebook </a></li>';
-                                    }
-                                    if ($tw != "#"){ 
-                                        echo '<li><a href=' .$tw. '><img src="image/icon/twitter-icon-circle-blue-logo-preview.png"> Twitter </a></li>';
-                                    }
-                                echo '</div>';
-                    echo      '<ul>
-                            <div>
+                            <div class="col-sm"></div>
+                            <div class="col-sm"></div>
                         </div>
-                        </div>';
-               
-                
-                    echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
-                    echo'</div>
-                        </div>';
-                }
-
-            }
-        ?>
-    </div>
-</div>
-
-
-
-
-<div class="main">
-    <div class="container mt-3">
-        <h2 id="">Under graduate</h2>
-        <p></p>
-        <?php
-            $folder="/undergrad/";
-            $array=scandir($path.$folder);
-            $list=count($array);
-            for ($i=2; $i<$list; $i++){
-                $fil=fopen($path.$folder.$array[$i]."/data.txt","r");
-                $data=fgets($fil);
-                $name=strtok($data,"`");
-                $qualification=strtok("`");
-                $email=strtok("`");
-                $webpage=strtok("`");
-                $FB=strtok("`");
-                $tw=strtok("`");
-                $fill=strtok("`");
-                fclose($fil);
-            
-        
-
-                
-                if ($i%2 == 0 || $i%2 == 1){
-                    echo '<div class="row">
-                        <div class="col-sm">';
-                    if ($qualification=="#"){
-                        echo '<h3>'.$name.'</h3>'; 
-                    }
-                    else{
-                        echo '<h3>'.$name.','.$qualification.'</h3></div>';
-                    }
-                    echo'<div class="row">
-                            <div class="col-sm-3">
-                                <img src="image/members/img_'.$name.'.jpg" >
+                <?php }
+                } ?>
+            </div>
+            <hr>
+            <div>
+                <h2>PhD</h2>
+                <p></p>
+                <?php
+                $path = $pathmem;
+                $folder = "/grad/";
+                $array = scandir($path . $folder);
+                $list = count($array);
+                for ($i = 2; $i < $list; $i++) {
+                    $fil = fopen($path . $folder . $array[$i] . "/data.txt", "r");
+                    $data = fgets($fil);
+                    $name = strtok($data, "`");
+                    $qualification = strtok("`");
+                    $email = strtok("`");
+                    $webpage = strtok("`");
+                    $FB = strtok("`");
+                    $tw = strtok("`");
+                    $fill = strtok("`");
+                    fclose($fil);
+                ?>
+                    <?php if ($i % 2 == 0) { ?>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="pf-img">
+                                    <img src="./image/members/img_<?php echo $name ?>.jpg" alt="<?php echo $name ?>">
+                                </div>
                             </div>
-                            <div class="col-sm-9">
-                                <ul>';
-                                echo '<div class="img-icon">';
-                                    if ($webpage != "#"){ 
-                                        echo '<li><a href=' .$webpage. '> <img src="image/icon/domain.png">Webpage </a></li>';
-                                    }
-                                    if ($FB != "#"){ 
-                                        echo '<li><a href=' .$FB. '><img src="image/icon/Facebook-logo-500x350.png"> Facebook </a></li>';
-                                    }
-                                    if ($tw != "#"){ 
-                                        echo '<li><a href=' .$tw. '><img src="image/icon/twitter-icon-circle-blue-logo-preview.png"> Twitter </a></li>';
-                                    }
-                                    echo '</div>';
-                    echo        '<ul>
-                            <div>
-                        </div>
-                        </div>';
-               
-                
-                echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
-                echo'</div>
-                    </div>';
-                }
-                
-
-            }
-        ?>
-    </div>
-</div>
-
-<div class="main">
-    <div class="container mt-3">
-        <h2 id="formerphd">Former PhD & Post-Doc students</h2>
-        <p></p>
-        <?php
-            $folder="/Former PhD and Post-Docs/";
-            $array=scandir($path.$folder);
-            $list=count($array);
-            for ($i=2; $i<$list; $i++){
-                $fil=fopen($path.$folder.$array[$i]."/data.txt","r");
-                $data=fgets($fil);
-                $name=strtok($data,"`");
-                $qualification=strtok("`");
-                $email=strtok("`");
-                $webpage=strtok("`");
-                $FB=strtok("`");
-                $tw=strtok("`");
-                $fill=strtok("`");
-                fclose($fil);
-            
-        
-
-                
-                if ($i%2 == 0 || $i%2 == 1){
-                    echo '<div class="row">
-                        <div class="col-sm">';
-                    if ($qualification=="#"){
-                        echo '<h3>'.$name.'</h3>'; 
-                    }
-                    else{
-                        echo '<h3>'.$name.','.$qualification.'</h3></div>';
-                    }
-                    echo'<div class="row">
-                            <div class="col-sm-3">
-                                <img src="image/members/img_'.$name.'.jpg" >
+                            <div class="col-sm">
+                                <div class="info">
+                                    <div class="name">
+                                        <?php if ($qualification == "#") { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } else { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-9">
-                                <ul>';
-                                echo '<div class="img-icon">';
-                                    if ($webpage != "#"){ 
-                                        echo '<li><a href=' .$webpage. '> <img src="image/icon/domain.png">Webpage </a></li>';
-                                    }
-                                    if ($FB != "#"){ 
-                                        echo '<li><a href=' .$FB. '><img src="image/icon/Facebook-logo-500x350.png"> Facebook </a></li>';
-                                    }
-                                    if ($tw != "#"){ 
-                                        echo '<li><a href=' .$tw. '><img src="image/icon/twitter-icon-circle-blue-logo-preview.png"> Twitter </a></li>';
-                                    }
-                                    echo '</div>';
-                    echo        '<ul>
-                            <div>
-                        </div>
-                        </div>';
-               
-                
-                echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
-                echo'</div>
-                    </div>';
-                }
-                
-
-            }
-        ?>
-    </div>
-</div>
-
-
-<div class="main">
-    <div class="container mt-3">
-        <h2 id="formerstudents">Former students</h2>
-        <p></p>
-        <?php
-            $folder="/former/";
-            $array=scandir($path.$folder);
-            $list=count($array);
-            for ($i=2; $i<$list; $i++){
-                $fil=fopen($path.$folder.$array[$i]."/data.txt","r");
-                $data=fgets($fil);
-                $name=strtok($data,"`");
-                $qualification=strtok("`");
-                $email=strtok("`");
-                $webpage=strtok("`");
-                $FB=strtok("`");
-                $tw=strtok("`");
-                $fill=strtok("`");
-                fclose($fil);
-            
-        
-
-                
-                if ($i%2 == 0 || $i%2 == 1){
-                    echo '<div class="row">
-                        <div class="col-sm">';
-                    if ($qualification=="#"){
-                        echo '<h3>'.$name.'</h3>'; 
-                    }
-                    else{
-                        echo '<h3>'.$name.','.$qualification.'</h3></div>';
-                    }
-                    echo'<div class="row">
-                            <div class="col-sm-3">
-                                <img src="image/members/img_'.$name.'.jpg" >
+                        <?php } else { ?>
+                            <div class="col-sm">
+                                <div class="pf-img">
+                                    <img src="./image/members/img_<?php echo $name ?>.jpg" alt="<?php echo $name ?>">
+                                </div>
                             </div>
-                            <div class="col-sm-9">
-                                <ul>';
-                                echo '<div class="img-icon">';
-                                    if ($webpage != "#"){ 
-                                        echo '<li><a href=' .$webpage. '> <img src="image/icon/domain.png">Webpage </a></li>';
-                                    }
-                                    if ($FB != "#"){ 
-                                        echo '<li><a href=' .$FB. '><img src="image/icon/Facebook-logo-500x350.png"> Facebook </a></li>';
-                                    }
-                                    if ($tw != "#"){ 
-                                        echo '<li><a href=' .$tw. '><img src="image/icon/twitter-icon-circle-blue-logo-preview.png"> Twitter </a></li>';
-                                    }
-                                    echo '</div>';
-                    echo        '<ul>
-                            <div>
+                            <div class="col-sm">
+                                <div class="info">
+                                    <div class="name">
+                                        <?php if ($qualification == "#") { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } else { ?>
+                                            <a href="/<?php echo $name ?>"><?php echo $name ?></a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        </div>';
-               
-                
-                    echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
-                    echo'</div>
-                        </div>';
-                }
-                
-
-            }
-        ?>
+                <?php }
+                } ?>
+            </div>
+            <hr>
+        </div>
     </div>
-</div>
-<?php include "gototop.php" ?>
-<?php include "footer.php" ?>
-<!-- <script src="./statics/js/menu.js"></script>-->
-<script src="statics/js/members.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+.bg-light {
+  color: black !important;
+  background-color: white !important;
+  font-size: x-large !important;
+  font-family: "Comic Sans MS" !important;
+  font-weight: bold !important;
+}
+
+.nav-item-hover {
+  font-size: x-large;
+  font-weight: normal;
+  font-family: "Comic Sans MS";
+}
+
+.nav-item-hover a {
+  color: black !important;
+}
+
+.nav-item-hover:hover .nav-link {
+  color: white !important;
+  background-color: black !important;
+  cursor: pointer;
+}
+
+nav {
+  padding: 0 !important;
+  margin: 0;
+  background-color: white !important;
+}
+
+body {
+  background-color: white !important;
+  font-family: "Comic Sans MS" !important;
+  padding-bottom: 30px !important;
+}
+
+body .navbar-brand img {
+  width: 200px;
+}
+/*# sourceMappingURL=menu.css.map */

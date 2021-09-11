@@ -19,8 +19,14 @@
   font-size: x-large;
 }
 
-.main .info .name:hover {
+.main .info .name a {
+  color: black;
+  text-decoration: none;
+}
+
+.main .info .name a:hover {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .main .info .email {

@@ -14,9 +14,14 @@
   .info {
     .name {
       font-size: x-large;
-    }
-    .name:hover {
-      font-weight: bold;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
     }
     .email {
       font-size: large;
