@@ -1,18 +1,6 @@
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("fonts/comic-sans-ms/COMIC.TTF") format("TrueType");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf") format("TrueType");
-  font-weight: bold;
-}
-
 .main {
   font-family: "Comic Sans MS";
-  margin-left: 250px;
+  margin-left: 0px;
   /* Same as the width of the sidenav */
   font-size: xx-large;
   /* Increased text to enable scrolling */
@@ -23,8 +11,39 @@
   font-size: xx-large;
 }
 
-.height img {
-  width: auto;
-  height: 100px;
+.main .pf-img img {
+  width: 250px;
+}
+
+.main .info .name {
+  font-size: x-large;
+}
+
+.main .info .name:hover {
+  font-weight: bold;
+}
+
+.main .info .email {
+  font-size: large;
+}
+
+.main .info .email a {
+  text-decoration: none;
+}
+
+.main .info .email a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main hr {
+  width: 100%;
+  color: black !important;
+  background-color: black !important;
+  height: 1px;
+  margin: auto auto;
+  margin-top: 1em;
+  border: 1px solid black;
+  border-width: 0;
 }
 /*# sourceMappingURL=members.css.map */
