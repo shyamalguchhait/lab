@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("fonts/comic-sans-ms/COMIC.TTF") format("TrueType");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf")
+    format("TrueType");
+  font-weight: bold;
+}
+.bg-light {
+  background-color: white !important;
+  font-size: x-large !important;
+  font-family: "Comic-Sans-MS-bold" !important;
+}
+
+.nav-item-hover {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+}
+.nav-item-hover:hover .nav-link {
+  color: orange;
+}
+nav {
+  padding: 0 !important;
+  margin: 0;
+  background-color: white !important;
+}
+body {
+  background-color: white !important;
+  font-family: "Comic Sans MS" !important;
+  padding-bottom: 30px !important;
+  .navbar-brand {
+    img {
+      width: 100px;
+    }
+  }
+}

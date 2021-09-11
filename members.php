@@ -83,15 +83,12 @@
                                 echo '</div>';
                     echo      '<ul>
                             <div>
-                        </div></div>';
-               
+                        </div></div>';              
                 
                     echo'<div class="row"><div class="col-sm"><p>'. $fill.'</p></div></div>';
                     echo'</div>
                         </div>';
                 }
- 
-
             }
         ?>
     </div>
