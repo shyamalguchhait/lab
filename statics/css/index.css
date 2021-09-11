@@ -75,20 +75,20 @@ body {
   background-color: white;
 }
 
-.ol-group {
+.welcome {
   color: black;
 }
 
-.ol-group ul {
-  list-style-type: circle;
-}
-
-.ol-group .h2 {
+.welcome .h2 {
   color: black;
-  font-size: large;
+  font-size: xx-large;
   text-align: left;
   height: auto;
   font-weight: bold !important;
+}
+
+.welcome .p {
+  font-size: x-large;
 }
 
 .ul-group ul {

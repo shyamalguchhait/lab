@@ -70,17 +70,17 @@ body {
   background-color: white;
 }
 
-.ol-group {
+.welcome {
   color: black;
-  ul {
-    list-style-type: circle;
-  }
   .h2 {
     color: black;
-    font-size: large;
+    font-size: xx-large;
     text-align: left;
     height: auto;
     font-weight: bold !important;
+  }
+  .p {
+    font-size: x-large;
   }
 }
 .ul-group ul {
