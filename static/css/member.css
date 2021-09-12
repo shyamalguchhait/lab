@@ -1,0 +1,71 @@
+.member .bg-img {
+  display: block;
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+  background: url("../image/20190608_182255.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  position: absolute;
+  overflow: visible;
+}
+
+.member .bg-img img {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: auto auto;
+  margin-top: 400px;
+  position: relative;
+  overflow: visible;
+}
+
+.member .info {
+  padding-top: 600px;
+}
+
+.member .info .name {
+  text-align: center;
+  font-size: x-large;
+  position: relative;
+}
+
+.member .info .email .base {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .email .value {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .email .value a {
+  text-decoration: none;
+}
+
+.member .info .email .value a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.member .info .position .base {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .position .value {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=member.css.map */

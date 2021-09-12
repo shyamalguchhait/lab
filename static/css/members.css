@@ -4,23 +4,40 @@
   /* Same as the width of the sidenav */
   font-size: xx-large;
   /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0px 0px;
 }
 
 .main h2 {
   font-size: xx-large;
 }
 
+.main .col-sm {
+  margin: auto;
+}
+
+.main .pf-img {
+  height: 250px;
+  margin-top: 10px;
+}
+
 .main .pf-img img {
   width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
 .main .info .name {
   font-size: x-large;
 }
 
-.main .info .name:hover {
+.main .info .name a {
+  color: black;
+  text-decoration: none;
+}
+
+.main .info .name a:hover {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .main .info .email {
@@ -41,7 +58,7 @@
   color: black !important;
   background-color: black !important;
   height: 1px;
-  margin: auto auto;
+  margin: 0 0;
   margin-top: 1em;
   border: 1px solid black;
   border-width: 0;

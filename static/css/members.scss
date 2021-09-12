@@ -2,21 +2,33 @@
   font-family: "Comic Sans MS";
   margin-left: 0px; /* Same as the width of the sidenav */
   font-size: xx-large; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0px 0px;
   h2 {
     font-size: xx-large;
   }
+  .col-sm {
+    margin: auto;
+  }
   .pf-img {
+    height: 250px;
+    margin-top: 10px;
     img {
       width: 250px;
+      height: 250px;
+      border-radius: 50%;
     }
   }
   .info {
     .name {
       font-size: x-large;
-    }
-    .name:hover {
-      font-weight: bold;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
     }
     .email {
       font-size: large;
@@ -34,7 +46,7 @@
     color: black !important;
     background-color: black !important;
     height: 1px;
-    margin: auto auto;
+    margin: 0 0;
     margin-top: 1em;
     border: 1px solid black;
     border-width: 0;
