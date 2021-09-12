@@ -21,14 +21,20 @@
 
 <body>
   <?php include 'menu.php'; ?>
-
   <div class="fill-0">
     <div class="container">
       <div class="row">
-        <div class="col-sm"><img src="./image/index/index1.jpg"></div>
-        <div class="col-sm"><img src="./image/index/index2.jpg"></div>
-        <div class="col-sm"><img src="./image/index/index3.jpg"></div>
+        <div class="col-sm">
+          <div class="image">
+            <div class="row">
+              <div class="col-sm"><div class="image1"><img src="./image/index/index1.jpg"></div></div>
+              <div class="col-sm"><img src="./image/index/index2.jpg"></div>
+              <div class="col-sm"><img src="./image/index/index3.jpg"></div>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div class="row">
         <div class="col-sm">
           <div class="welcome">
@@ -41,13 +47,26 @@
       </div>
       <div class="row">
         <div class="col-sm">
-          <div class="update">
+          <div class="update"><!--
             <h2 class="h2">Latest updates:</h2>
             <ul class="ul">
               <li>Birefringent studies on self-healing piezo-electric crystal, <i>Science</i>, 2021, 373, 321–327.</li>
               <li>Prof. Nirmalya Ghosh received G.G. Stokes Award in Optical Polarization.</li>
             </ul>
-            </h2>
+            </h2>-->
+            <div class="ticker-wrap">
+              <div class="ticker">
+                <div class="ticker__item">
+                  <strong>Latest updates:</strong>
+                </div>
+                <div class="ticker__item">
+                  Birefringent studies on self-healing piezo-electric crystal, <i>Science</i>, 2021, 373, 321–327.</li>
+                </div>
+                <div class="ticker__item">
+                  Prof. Nirmalya Ghosh received G.G. Stokes Award in Optical Polarization.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +79,7 @@
                 <p>Polarization studies</p>
               </div>
               <div class="col-sm"><img src="./image/index/r1.png" alt=""><br>
-                <p>Weak measurment</p>
+                <p>Weak measurement</p>
               </div>
             </div>
             <div class="row">
