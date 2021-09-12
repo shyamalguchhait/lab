@@ -1,15 +1,21 @@
+.member {
+  display: block;
+  width: 1300px;
+  overflow-x: hidden;
+}
+
 .member .bg-img {
   display: block;
   text-align: center;
-  width: 1000px;
-  height: 500px;
-  background: url("../image/20190608_182255.jpg");
+  width: 1300px;
+  background: url("../image/0.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 500px;
+  background-attachment: fixed;
   background-position-x: center;
   background-position-y: top;
   position: absolute;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .member .bg-img img {
@@ -21,7 +27,7 @@
      object-fit: cover;
   border-radius: 50%;
   margin: auto auto;
-  margin-top: 400px;
+  margin-top: 300px;
   position: relative;
   overflow: visible;
 }

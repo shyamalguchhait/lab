@@ -20,7 +20,11 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <img src="iimage" alt="nname">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="iimage" alt="nname">
+                    </div>
+                </div>
             </div>
             <div class="info">
                 <div class="row">
