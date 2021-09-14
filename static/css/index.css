@@ -199,6 +199,16 @@ body {
   padding-right: 0;
 }
 
+.fill-0 .image .image2 {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.fill-0 .image .image3 {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .fill-0 .ticker-wrap {
   display: block;
   width: 100%;

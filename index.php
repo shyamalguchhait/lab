@@ -27,9 +27,9 @@
         <div class="col-sm">
           <div class="image">
             <div class="row">
-              <div class="col-sm"><div class="image1"><img src="./image/index/index1.jpg"></div></div>
-              <div class="col-sm"><img src="./image/index/index2.jpg"></div>
-              <div class="col-sm"><img src="./image/index/index3.jpg"></div>
+              <div class="col-sm image1"><img src="./image/index/index1.jpg"></div>
+              <div class="col-sm image2"><img src="./image/index/index2.jpg"></div>
+              <div class="col-sm image3"><img src="./image/index/index3.jpg"></div>
             </div>
           </div>
         </div>
