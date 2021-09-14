@@ -79,7 +79,7 @@
                 <p>Polarization studies</p>
               </div>
               <div class="col-sm"><img src="./image/index/r1.png" alt=""><br>
-                <p>Weak measurement</p>
+                <p>Weak measurements</p>
               </div>
             </div>
             <div class="row">
