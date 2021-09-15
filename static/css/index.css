@@ -25,7 +25,29 @@
 
 body {
   padding-bottom: 50px !important;
-  font-family: "Comic-Sans-MS";
+  font-family: "Comic-Sans-MS" !important;
+}
+
+@-webkit-keyframes scalezoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes scalezoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 /*
@@ -63,7 +85,7 @@ body {
 
 .h1 {
   font-weight: bold !important;
-  color: blue;
+  color: black;
   text-align: center;
 }
 
@@ -87,6 +109,7 @@ body {
 }
 
 .welcome .h2 {
+  color: black;
   text-align: left;
   font-size: xx-large;
   height: auto;
@@ -113,19 +136,67 @@ body {
 }
 
 .research .col-sm {
-  margin: 0 1em 0 1em;
-}
-
-.research .col-sm img {
-  width: 100%;
-  height: 300px;
+  margin: 1em 1em 1em 1em;
+  padding: 0 0 0 0;
+  overflow: hidden;
   border: 0.5em solid black;
 }
 
-.research .col-sm p {
+.research .col-sm a {
+  text-decoration: none;
+  padding-bottom: 0;
+}
+
+.research .col-sm a figure {
+  text-decoration: none;
+}
+
+.research .col-sm a figure img {
+  width: 100%;
+  height: 300px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.research .col-sm a figure img:hover,
+.research .col-sm a figure imag:focus {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.research .col-sm a figure figcaption {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.research .col-sm a figure figcaption:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.research .col-sm .write {
+  display: none;
   font-size: x-large;
   font-weight: bold;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.research .col-sm .write a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.research .col-sm .write a:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .update {

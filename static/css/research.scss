@@ -1,0 +1,39 @@
+@import "fonts.scss";
+body {
+  font-family: "Comic Sans Ms" !important;
+  padding-bottom: 30px !important;
+}
+.h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+.p1 {
+  display: none;
+  font-family: "Comic Sans MS";
+}
+
+.padding-0 {
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: large;
+  padding: 1em !important;
+  figure {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    img {
+      text-align: center;
+      width: 100%;
+      height: 200px;
+    }
+    figcaption {
+      text-align: center;
+    }
+  }
+  .write {
+    padding: 0.5em 0 0 0;
+  }
+}

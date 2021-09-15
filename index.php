@@ -2,7 +2,6 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
   <!-- CSS only -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,20 +74,21 @@
           <div class="research">
             <h2 class="h2">Research interests</h2>
             <div class="row">
-              <div class="col-sm"><img src="./image/index/r0.jpg" alt=""><br>
-                <p>Polarization studies</p>
+              <div class="col-sm"><a href="./research.php#res1"><figure><img src="./image/index/r0.jpg" alt=""><figcaption>Polarization and singular optics</figcaption></figure></a><br> 
+                <!--<p class="write"><a href="./research.php#res1">Polarization and singular optics</a></p>-->
               </div>
-              <div class="col-sm"><img src="./image/index/r1.png" alt=""><br>
-                <p>Weak measurements</p>
+              <div class="col-sm"><a href="./research.php#res2"><figure><img src="./image/index/r1.png" alt=""><figcaption>Weak measurements</figcaption></figure></a><br> 
+                <!--<p class="write"><a href="./research.php#res1">Weak measurements</a></p>-->
               </div>
             </div>
             <div class="row">
-              <div class="col-sm"><img src="./image/index/r2.png" alt=""><br>
-                <p>Nano-optics</p>
+              <div class="col-sm"><a href="./research.php#res3"><figure><img src="./image/index/r2.png" alt=""><figcaption>Nano-optics</figcaption></figure></a><br> 
+                <!--<p class="write"><a href="./research.php#res1">Nano-optics</a></p>-->
               </div>
-              <div class="col-sm"><img src="./image/index/r3.png" alt=""><br>
-                <p>Computational optics</p>
+              <div class="col-sm"><a href="./research.php#res4"><figure><img src="./image/index/r3.png" alt=""><figcaption>Computational optics</figcaption></figure></a><br> 
+                <!--<p class="write"><a href="./research.php#res1">Computational optics</a></p>-->
               </div>
+            </div>
             </div>
           </div>
         </div>
