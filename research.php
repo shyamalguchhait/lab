@@ -26,9 +26,9 @@
       <p class="p1"></p>
 
       <div class="row">
-        <div class="col-sm padding-0"><figure><img src="image/research/forward MM.png"><figcaption>Forward scattering</figcaption></figure></div>
-        <div class="col-sm padding-0"><figure><img src="image/research/back MM.jpg"><figcaption>Back scattering</figcaption></figure></div>
-      <div class="col-sm padding-0"><figure><img src="image/research/MC MM.jpg"><figcaption>Darkfield scattering</figcaption></figure></div>
+        <div class="col-sm padding-0"><figure><img src="image/research/forward MM.png"><figcaption>Forward scattering setup</figcaption></figure></div>
+        <div class="col-sm padding-0"><figure><img src="image/research/back MM.jpg"><figcaption>Back scattering setup</figcaption></figure></div>
+      <div class="col-sm padding-0"><figure><img src="image/research/MC MM.jpg"><figcaption>Darkfield scattering setup</figcaption></figure></div>
     </div>   
     <div class="row">
       <div class="col-sm padding-0">
@@ -37,6 +37,15 @@
         </div>
       </div>
     </div>
+    </div>
+    <div class="poster">
+      <h2>??</h2>
+      <div class="row">
+        <div class="col-sm"><a href="./image/research/1/MM .png"><figure><figcaption>Mueller matrix measurment</figcaption><img src="./image/research/1/MM .png" alt=""></figure></a></div>
+        <div class="col-sm"><a href="./image/research/1/Single_shot_poster.png"><figure><figcaption>Geometric phase polarimeter</figcaption><img src="./image/research/1/Single_shot_poster.png" alt=""></figure></a></div>
+        <div class="col-sm"><a href="./image/research/1/SHEL.png" ><figure><figcaption>Spin specific Hall effect</figcaption><img src="./image/research/1/SHEL.png" alt=""></figure></a></div>
+        <div class="col-sm"><a href="./image/research/1/sounak_poster_sdp.png" ><figure><figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/sounak_poster_sdp.png" alt=""></figure></a></div>
+      </div>
     </div>
   </div>
 </div>

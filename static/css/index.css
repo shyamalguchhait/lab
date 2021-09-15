@@ -109,7 +109,7 @@ body {
 }
 
 .welcome .h2 {
-  color: black;
+  color: white;
   text-align: left;
   font-size: xx-large;
   height: auto;
@@ -138,8 +138,8 @@ body {
 .research .col-sm {
   margin: 1em 1em 1em 1em;
   padding: 0 0 0 0;
+  position: relative;
   overflow: hidden;
-  border: 0.5em solid black;
 }
 
 .research .col-sm a {
@@ -149,17 +149,25 @@ body {
 
 .research .col-sm a figure {
   text-decoration: none;
+  padding: 0 0 0 0;
 }
 
-.research .col-sm a figure img {
+.research .col-sm a figure .img {
+  border: 0.5em solid black;
+  overflow: hidden;
+}
+
+.research .col-sm a figure .img img {
   width: 100%;
   height: 300px;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-.research .col-sm a figure img:hover,
-.research .col-sm a figure imag:focus {
+.research .col-sm a figure .img img:hover,
+.research .col-sm a figure .img img:focus {
+  background-color: black;
+  opacity: 0.5;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -169,16 +177,16 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: x-large;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .research .col-sm a figure figcaption:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 
 .research .col-sm .write {
   display: none;
+  color: white;
   font-size: x-large;
   font-weight: bold;
   text-align: center;
@@ -195,7 +203,6 @@ body {
 }
 
 .research .col-sm .write a:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 

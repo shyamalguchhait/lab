@@ -66,4 +66,27 @@ body {
 .padding-0 .write {
   padding: 0.5em 0 0 0;
 }
+
+.poster a {
+  text-decoration: none;
+}
+
+.poster a figure figcaption {
+  color: black;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.poster a figure figcaption:hover,
+.poster a figure figcaption:focus {
+  text-decoration: underline;
+}
+
+.poster a figure img {
+  width: 100%;
+  height: 300px;
+  border: 0.5em solid gray;
+}
 /*# sourceMappingURL=research.css.map */

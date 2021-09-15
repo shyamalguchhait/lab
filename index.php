@@ -15,6 +15,7 @@
   <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
   <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
   <link rel="stylesheet" href="./static/css/index.css" type="text/css">
+  <script href="./static/js/index.js"></script>
   <link rel="shortcut icon" href="./image/logo.png">
 </head>
 
@@ -74,19 +75,19 @@
           <div class="research">
             <h2 class="h2">Research interests</h2>
             <div class="row">
-              <div class="col-sm"><a href="./research.php#res1"><figure><img src="./image/index/r0.jpg" alt=""><figcaption>Polarization and singular optics</figcaption></figure></a><br> 
-                <!--<p class="write"><a href="./research.php#res1">Polarization and singular optics</a></p>-->
+              <div class="col-sm" id = "res1"><a href="./research.php#res1"><figure><div class="img"><img src="./image/index/r0.jpg" alt=""></div><figcaption>Polarization and singular optics</figcaption></figure></a>
+                <p class="write"><a href="./research.php#res1">Polarization and singular optics</a></p>
               </div>
-              <div class="col-sm"><a href="./research.php#res2"><figure><img src="./image/index/r1.png" alt=""><figcaption>Weak measurements</figcaption></figure></a><br> 
-                <!--<p class="write"><a href="./research.php#res1">Weak measurements</a></p>-->
+              <div class="col-sm" id = "res2"><a href="./research.php#res2"><figure><div class="img"><img src="./image/index/r1.png" alt=""></div><figcaption>Weak measurements</figcaption></figure></a>
+                <p class="write"><a href="./research.php#res1">Weak measurements</a></p>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm"><a href="./research.php#res3"><figure><img src="./image/index/r2.png" alt=""><figcaption>Nano-optics</figcaption></figure></a><br> 
-                <!--<p class="write"><a href="./research.php#res1">Nano-optics</a></p>-->
+              <div class="col-sm" id = "res3"><a href="./research.php#res3"><figure><div class="img"><img src="./image/index/r2.png" alt=""></div><figcaption>Nano-optics</figcaption></figure></a>
+                <p class="write"><a href="./research.php#res1">Nano-optics</a></p>
               </div>
-              <div class="col-sm"><a href="./research.php#res4"><figure><img src="./image/index/r3.png" alt=""><figcaption>Computational optics</figcaption></figure></a><br> 
-                <!--<p class="write"><a href="./research.php#res1">Computational optics</a></p>-->
+              <div class="col-sm" id = "res4"><a href="./research.php#res4"><figure><div class="img"><img src="./image/index/r3.png" alt=""></div><figcaption>Computational optics</figcaption></figure></a>
+                <p class="write"><a href="./research.php#res1">Computational optics</a></p>
               </div>
             </div>
             </div>
