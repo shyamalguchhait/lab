@@ -78,7 +78,7 @@
             </div>
             <hr>
             <div>
-                <h2>PhD</h2>
+                <h2>Grad</h2>
                 <p></p>
                 <?php
                 $path = $pathmem;
