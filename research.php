@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="IISER Kolkata BioNaP group official webpage">
@@ -15,7 +15,7 @@
   <!--<link rel="stylesheet" href="./static/css/index.css" type="text/css">-->
   <link rel="stylesheet" href="./static/css/research.css" type="text/css">
   <link rel="shortcut icon" href="./image/logo.png">
-    </head>
+</head>
 <body>
 <?php include 'menu.php'; ?>
 
@@ -41,7 +41,7 @@
     <div class="poster">
       <h2>??</h2>
       <div class="row">
-        <div class="col-sm"><a href="./image/research/1/MM.png"><figure><figcaption>Mueller matrix measurment</figcaption><img src="./image/research/1/MM.png" alt=""></figure></a></div>
+        <div class="col-sm"><a href="views.php?i=./image/research/1/MM.png"><figure><figcaption>Mueller matrix measurment</figcaption><img src="./image/research/1/MM.png" alt=""></figure></a></div>
         <div class="col-sm"><a href="./image/research/1/GP polarimeter.png"><figure><figcaption>Geometric phase polarimeter</figcaption><img src="./image/research/1/GP polarimeter.png" alt=""></figure></a></div>
         <div class="col-sm"><a href="./image/research/1/SHEL.png" ><figure><figcaption>Spin specific Hall effect</figcaption><img src="./image/research/1/SHEL.png" alt=""></figure></a></div>
         <div class="col-sm"><a href="./image/research/1/OHEL.png" ><figure><figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt=""></figure></a></div>
