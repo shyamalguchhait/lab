@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=views.css.map */
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-container img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid black;
+  width: 10%;
+  height: 10vh;
+}
+
+.img-zoom-result {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=views.css.map */
