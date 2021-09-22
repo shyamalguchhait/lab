@@ -77,6 +77,62 @@
             </a></div>
         </div>
       </div>
+
+      
+      <div class="res" id="res2">
+        <h1 class="h1">Weak measurements</h1>
+        <p class="p1"></p>
+
+        <div class="row">
+          <div class="col-sm padding-0">
+            <figure><img src="image/research/forward MM.png">
+              <figcaption>Forward scattering setup</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm padding-0">
+            <figure><img src="image/research/back_ MM.png">
+              <figcaption>Back scattering setup</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm padding-0">
+            <figure><img src="image/research/MC MM.jpg">
+              <figcaption>Darkfield scattering setup</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm padding-0">
+            <div class="write">
+              When Weak is Powerful Weak Value amplification got considerable attention, specifically, in the domain of optics since the last two decades, to amplify and detect tiny optical effects. We use classical light to perform quantum weak measurement that enables considerably significant amplification of extremely tiny spin-optical effects, offers dramatic control over resonance phenomena, and opens up a novel route towards the development of spin-photonic metadevices. We have also applied this enhancement technique to implement a new concept of weak value polarimeter, which is capable of enhanced detection of small sample polarization effects breaking conventional limits of traditional polarimeters.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="poster">
+        <h2>??</h2>
+        <div class="row">
+          <div class="col-sm"><a href="views.php?i=1/MM.png">
+              <figure>
+                <figcaption>Weak Value Polarimeter</figcaption><img src="./image/research/2/v1.png" alt="">
+              </figure>
+            </a></div>
+          <div class="col-sm"><a href="./image/research/1/GP polarimeter.png">
+              <figure>
+                <figcaption>Geometric phase polarimeter</figcaption><img src="./image/research/1/GP polarimeter.png" alt="">
+              </figure>
+            </a></div>
+          <div class="col-sm"><a href="./image/research/1/SHEL.png">
+              <figure>
+                <figcaption>Spin specific Hall effect</figcaption><img src="./image/research/1/SHEL.png" alt="">
+              </figure>
+            </a></div>
+          <div class="col-sm"><a href="./image/research/1/OHEL.png">
+              <figure>
+                <figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt="">
+              </figure>
+            </a></div>
+        </div>
+      </div>
     </div>
   </div>
 
