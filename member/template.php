@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include "./menu.php"; ?>
+<?php require "../path.php"; ?>
 <html lang="en">
 
 <head>
@@ -15,8 +17,7 @@
 </head>
 
 <body>
-    <?php include "./menu.php" ?>
-    <?php include "../path.php" ?>
+
     <div class="container">
         <div class="member">
             <div class="bg-img">

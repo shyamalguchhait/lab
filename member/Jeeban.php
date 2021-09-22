@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include "./menu.php"; ?>
+<?php require "../path.php"; ?>
 <html lang="en">
 
 <head>
@@ -15,12 +17,15 @@
 </head>
 
 <body>
-    <?php include "./menu.php" ?>
-    <?php include "../path.php" ?>
+
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <img src="../image/members/img_Jeeban Nayak.jpg" alt="Jeeban Nayak">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="../image/members/img_Jeeban Nayak.jpg" alt="Jeeban Nayak">
+                    </div>
+                </div>
             </div>
             <div class="info">
                 <div class="row">

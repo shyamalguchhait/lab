@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
 <html>
 
 <head>
@@ -33,7 +33,7 @@
                         <li class="nav-item active">
                             <div class="nav-item-hover">
                                 <a class="nav-link" href="./index.php">Home</a>
-                                <div class="nav-item-hover">
+                            </div>
                         </li>
                         <li class="nav-item">
                             <div class="nav-item-hover">
@@ -55,11 +55,11 @@
                                 <a class="nav-link" href="./achievement.php">Achievement</a>
                             </div>
                         </li>
-                        <div clasll="nav-item">
+                        <li class="nav-item">
                             <div class="nav-item-hover">
                                 <a class="nav-link" href="./lightbox.php">Lightbox</a>
                             </div>
-                        </div>
+                        </li>
                         <li class="nav-item">
                             <div class="nav-item-hover">
                                 <a class="nav-link" href="./contact.php">Contact</a>

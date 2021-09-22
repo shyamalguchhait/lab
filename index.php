@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<?php include 'menu.php';
+echo "\n"; ?>
+<html lang="en">
 
 <head>
   <!-- CSS only -->
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-  <?php include 'menu.php'; ?>
+
   <div class="fill-0">
     <div class="container">
       <div class="row">
@@ -47,7 +49,8 @@
       </div>
       <div class="row">
         <div class="col-sm">
-          <div class="update"><!--
+          <div class="update">
+            <!--
             <h2 class="h2">Latest updates:</h2>
             <ul class="ul">
               <li>Birefringent studies on self-healing piezo-electric crystal, <i>Science</i>, 2021, 373, 321–327.</li>
@@ -75,31 +78,49 @@
           <div class="research">
             <h2 class="h2">Research interests</h2>
             <div class="row">
-              <div class="col-sm" id = "res1"><a href="./research.php#res1"><figure><div class="img"><img src="./image/index/r0.jpg" alt=""></div><figcaption>Polarization and singular optics</figcaption></figure></a>
+              <div class="col-sm" id="res1"><a href="./research.php#res1">
+                  <figure>
+                    <div class="img"><img src="./image/index/r0.jpg" alt=""></div>
+                    <figcaption>Polarization and singular optics</figcaption>
+                  </figure>
+                </a>
                 <p class="write"><a href="./research.php#res1">Polarization and singular optics</a></p>
               </div>
-              <div class="col-sm" id = "res2"><a href="./research.php#res2"><figure><div class="img"><img src="./image/index/r1.png" alt=""></div><figcaption>Weak measurements</figcaption></figure></a>
+              <div class="col-sm" id="res2"><a href="./research.php#res2">
+                  <figure>
+                    <div class="img"><img src="./image/index/r1.png" alt=""></div>
+                    <figcaption>Weak measurements</figcaption>
+                  </figure>
+                </a>
                 <p class="write"><a href="./research.php#res1">Weak measurements</a></p>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm" id = "res3"><a href="./research.php#res3"><figure><div class="img"><img src="./image/index/r2.png" alt=""></div><figcaption>Nano-optics</figcaption></figure></a>
+              <div class="col-sm" id="res3"><a href="./research.php#res3">
+                  <figure>
+                    <div class="img"><img src="./image/index/r2.png" alt=""></div>
+                    <figcaption>Nano-optics</figcaption>
+                  </figure>
+                </a>
                 <p class="write"><a href="./research.php#res1">Nano-optics</a></p>
               </div>
-              <div class="col-sm" id = "res4"><a href="./research.php#res4"><figure><div class="img"><img src="./image/index/r3.png" alt=""></div><figcaption>Computational optics</figcaption></figure></a>
+              <div class="col-sm" id="res4"><a href="./research.php#res4">
+                  <figure>
+                    <div class="img"><img src="./image/index/r3.png" alt=""></div>
+                    <figcaption>Computational optics</figcaption>
+                  </figure>
+                </a>
                 <p class="write"><a href="./research.php#res1">Computational optics</a></p>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
-  <!--
-  <?php include 'gototop.php'; ?>
-  <?php include 'footer.php'; ?>-->
 </body>
 
 </html>
+<!--
+  <?php include 'gototop.php'; ?>
+  <?php include 'footer.php'; ?>-->

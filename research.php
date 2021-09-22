@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'menu.php'; ?>
 <html>
 
 <head>
@@ -19,8 +20,6 @@
 </head>
 
 <body>
-  <?php include 'menu.php'; ?>
-
   <div class="fill-0">
     <div class="container mt-3">
       <div class="res" id="res1">
@@ -78,7 +77,7 @@
         </div>
       </div>
 
-      
+
       <div class="res" id="res2">
         <h1 class="h1">Weak measurements</h1>
         <p class="p1"></p>
@@ -111,7 +110,7 @@
       <div class="poster">
         <h2>??</h2>
         <div class="row">
-          <div class="col-sm"><a href="views.php?i=1/MM.png">
+          <div class="col-sm"><a href="views.php?i=2/v1.png">
               <figure>
                 <figcaption>Weak Value Polarimeter</figcaption><img src="./image/research/2/v1.png" alt="">
               </figure>

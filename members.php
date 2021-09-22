@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include "menu.php"; ?>
+<?php require "path.php"; ?>
 <html>
 
 <head>
@@ -25,8 +27,6 @@
 </head>
 
 <body>
-    <?php include "menu.php"; ?>
-    <?php require "path.php"; ?>
     <div class="main">
         <div class="container">
             <div>
@@ -143,7 +143,7 @@
                 } ?>
             </div>
             <hr>
-            
+
             <div>
                 <h2>Undergrad</h2>
                 <p></p>
@@ -210,7 +210,7 @@
                 } ?>
             </div>
             <hr>
-            
+
             <div>
                 <h2>Former</h2>
                 <p></p>

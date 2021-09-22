@@ -88,14 +88,19 @@
         }
     }
 </script>
+<!--
 <script>
     $(document).ready(function() {
         var img, lens, result, cx, cy;
         img = document.getElementById("image");
         result = document.querySelector("#result");
-        $('<div class="img-zoom-lens"></div>').insertBefore(img);
+        lens = $("div").addClass("img-zoom-lens")
+        $(lens).insertBefore(img);
+        cx = result.offsetWidth / lens.offsetWidth;
+        cy = result.offsetHeight / lens.offsetHeight;
     });
 </script>
+-->
 
 <body>
     <?php
