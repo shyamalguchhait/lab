@@ -229,6 +229,8 @@
                     $FB = strtok("`");
                     $tw = strtok("`");
                     $fill = strtok("`");
+                    $cp = strtok("`");
+                    $position = strtok("`");
                     fclose($fil);
                 ?>
                     <?php if ($i % 2 == 0) { ?>
@@ -250,6 +252,9 @@
                                     <div class="email">
                                         <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
                                     </div>
+                                    <?php if($cp != "#") { ?>
+                                        <div class="current-position"><?php echo $cp, ", ", $position ?></div>
+                                    <?php } ?>
                                 </div>
                             </div>
                         <?php } else { ?>
@@ -270,6 +275,9 @@
                                     <div class="email">
                                         <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
                                     </div>
+                                    <?php if($cp != "#") { ?>
+                                        <div class="current-position"><?php echo $cp, ", ", $position ?></div>
+                                    <?php } ?>
                                 </div>
                             </div>
                         </div>

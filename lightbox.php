@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<?php include 'menu.php' ?>
+<?php require "path.php" ?>
+<html lang="en">
 
 <head>
   <!-- CSS only -->
@@ -9,22 +11,23 @@
   <meta name="description" content="IISER Kolkata BioNaP group official webpage">
   <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
   <meta name="author" content="">
-  <title></title>
+  <title>The Bio-Optics and Nano-Photonics Group of IISER-K</title>
   <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
   <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
   <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./static/css/index.css" type="text/css">
   <link rel="stylesheet" href="./static/css/lightbox.css" type="text/css">
+  <script src="./static/js/lightbox.js"></script>
+  <link rel="shortcut icon" href="image/logo.png">
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
 </head>
 
 <body>
-  <?php include 'menu.php' ?>
-  <?php require "path.php" ?>
   <div class="fill-0">
-    <div class="container-fluid mt-3">
+    <div class="container mt-3">
       <h1 class="h1">Lightbox</h1>
       <p class="p1"></p>
       <?php
@@ -98,7 +101,7 @@
     </div>
     <?php include "footer.php" ?>
   </div>
-  <script src="statics/js/lightbox.js"></script>
+  <script src="./static/js/lightbox.js"></script>
 </body>
 
 </html>

@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include "meta.php" ?>
-    <title>BioNaP Group-IISER Kolkata: Publication</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="statics/css/publications.css" type="text/css">
-    <link rel="shortcut icon" href="image/logo.png">
-</head>
-<body>
 <?php include 'menu.php'; ?>
 <?php require "path.php"; ?>
+<html lang ="en">
+<head>
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="IISER Kolkata BioNaP group official webpage">
+  <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
+  <meta name="author" content="">
+  <title>The Bio-Optics and Nano-Photonics Group of IISER-K</title>
+  <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./static/css/index.css" type="text/css">
+  <link rel="stylesheet" href="./static/css/publications.css" type="text/css">
+  <link rel="shortcut icon" href="image/logo.png">
+</head>
+<body>
 <div class="fill-0">
   <div class="container mt-3">
     <h1 class="h1">Selected publications</h1>
@@ -25,7 +31,7 @@
       $list=count($array);
         for ($i=0; $i<$list-2; $i++){
           echo '<div class="row">
-                <div class="col-sm padding-1 ol-group" > 
+                <div class="col-sm" > 
                 <h3 class="h3"> Year: '.$array[$i].'</h3></div></div>';
           $pathn=$path.$folder.$array[$i];
           $arrayn=scandir($pathn); // year folder
@@ -39,14 +45,10 @@
             $year=strtok("`");
             $link=strtok("`");
             echo '<div class="row">
-                  <div class="col-sm padding-1 ol-group" > ';
-            echo '<ul>
-                    <li class="title">'.$title.'</li>
-                    <li class="author">'.$author.'</li>
-                    <li class="journal">'.$journal.'</li>
-                    <li class="year">'.$year.'</li>
-                    <li class="link"><a href='.$link.' target="_blank">online</a></li>
-                  </ul>';
+                  <div class="col-sm" > ';
+            echo '<div >
+                    <div class="title">'.'<a href='.$link.' target="_blank">'.$title.'</a>'.", ".$author.", ".$journal.", ".$year.'</div>
+                  </div>';
             fclose($fil);
             echo'</div></div>';
           }
@@ -81,16 +83,9 @@
             $link=strtok("`");
             echo '<div class="row">
                   <div class="col-sm padding-1 ol-group" > ';
-            echo '<ul>
-                    <li class="title">'.$title.'</li>
-                    <li class="author">'.$author.'</li>
-                    <li class="journal">'.$journal.'</li>
-                    <li class="year">'.$year.'</li>';
-                  if (!empty($link)){
-                  
-                    echo '<li class="link"><a href='.$link.'>online</a></li>';
-                  }
-                  echo '</ul>';
+            echo '<div>
+                  <div class="title">'.'<a href='.$link.' target="_blank">'.$title.'</a>'.", ".$author.", ".$journal.", ".$year.'</div>
+                </div>';
 
             fclose($fil);
             echo'</div></div>';
@@ -126,16 +121,9 @@
             $link=strtok("`");
             echo '<div class="row">
                   <div class="col-sm padding-1 ol-group" > ';
-            echo '<ul>
-                    <li class="title">'.$title.'</li>
-                    <li class="author">'.$author.'</li>
-                    <li class="journal">'.$journal.'</li>
-                    <li class="year">'.$year.'</li>';
-                  if (!empty($link)){
-                  
-                    echo '<li class="link"><a href='.$link.'>online</a></li>';
-                  }
-                  echo '</ul>';
+            echo '<div >
+                  <div class="title">'.'<a href='.$link.' target="_blank">'.$title.'</a>'.", ".$author.", ".$journal.", ".$year.'</div>
+                </div>';
 
             fclose($fil);
             echo'</div></div>';

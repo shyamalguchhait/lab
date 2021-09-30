@@ -54,6 +54,12 @@
   text-decoration: underline;
 }
 
+.main .info .current-position {
+  text-align: left;
+  font-size: large;
+  position: relative;
+}
+
 .main hr {
   width: 100%;
   color: black !important;

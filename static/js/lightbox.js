@@ -1,45 +1,55 @@
 function openModal() {
-    document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal").style.display = "block";
+}
+  
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+  
+var slideIndex = 1; 
+showSlides(slideIndex);
+  
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+  
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+  
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  
-  function closeModal() {
-    document.getElementById("myModal").style.display = "none";
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
   }
-  
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className = " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+$(document).ready(function(){
+  $(document).keydown(function (event) {
+    if (event.which == 37){
+      plusSlides(-1);
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    if (event.which == 39){
+      plusSlides(1);
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-  }
-  
+  });
+});
+
 document.addEventListener("keydown", function(event){
-	if (event.keyCode == 37){
+	if (event.which == 37){
 		plusSlides(-1);
 	}
-	if (event.keyCode == 39){
+	if (event.which == 39){
 		plusSlides(1);
 	}
 	

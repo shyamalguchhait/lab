@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/Century\ Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../css/fonts/century/Century\ Bold\ Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  font-family: "Comic Sans MS";
+}
+.fill-0 {
+  .h1 {
+    text-align: center;
+  }
+  .h2 {
+    text-align: left;
+  }
+  .title {
+    a {
+      color: black;
+      font-weight: bolder;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:hover {
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+  }
+}
