@@ -53,43 +53,44 @@
       ?>
     </div>
   </div>
+
   <?php include "footer.php" ?>
   <div class="container mt-3">
-  <div id="myModal" class="modal ">
-    <div class="row">
-      <div class="col-sm-9">
-        <span class="close cursor color-fbg" onclick="closeModal()">&times;</span>
-        <div class="modal-content view-img">
-          <td>
-          <?php
-          for ($i = 0; $i < $count - 2; $i++) {
-            echo '<div class="mySlides">
+    <div id="myModal" class="modal ">
+      <div class="row">
+        <div class="col-sm-9">
+          <span class="close cursor color-fbg" onclick="closeModal()">&times;</span>
+          <div class="modal-content view-img">
+            <td>
+              <?php
+              for ($i = 0; $i < $count - 2; $i++) {
+                echo '<div class="mySlides">
             <div class="numbertext">' . ($i + 1) . ' / 20</div>
             <img src="image/lightbox/' . $photo[$i] . '">
             </div>';
-          }
-          ?>
-          </td>
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              }
+              ?>
+            </td>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-          <div class="caption-container">
-            <p id="caption"></p>
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="scroll">
-        <?php
-          for ($i = 0; $i < $count - 2; $i++) {
-            if ($i % 1 == 0) {
-              echo '
+        <div class="col-sm-3">
+          <div class="scroll">
+            <?php
+            for ($i = 0; $i < $count - 2; $i++) {
+              if ($i % 1 == 0) {
+                echo '
               <div class = "row">
               <div class="col-sm image-small-show">
               <img src="image/lightbox/' . $photo[$i] . '" onclick="currentSlide(' . ($i + 1) . ')" alt="">
               </div></div>';
-            }
-            /* else{
+              }
+              /* else{
             echo'
             <div class="col-sm image-small-show">
             <img class="demo cursor" src="image/lightbox/'.$photo[$i].'" onclick="currentSlide('.($i+1).')" alt="Nature and sunrise">
@@ -98,11 +99,11 @@
             echo "</div>";
             }
           }*/
-          }
-        ?>
+            }
+            ?>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <?php include "footer.php" ?>
   </div>

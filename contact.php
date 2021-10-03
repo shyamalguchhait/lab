@@ -42,7 +42,6 @@
       </div>
     </div>
 </div>
-<?php include "f.php" ?>
 <?php include 'footer.php' ?>
 </body>
 </html>

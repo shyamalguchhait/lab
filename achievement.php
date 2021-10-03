@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include "meta.php" ?>
-    <title>BioNaP Group-IISER Kolkata: Achievement</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="statics/css/achievement.css" type="text/css">
-    <link rel="shortcut icon" href="image/logo.png">
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="IISER Kolkata BioNaP group official webpage">
+  <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
+  <meta name="author" content="">
+  <title>The Bio-Optics and Nano-Photonics Group of IISER-K</title>
+  <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./static/css/achievement.css" type="text/css">
+  <script href="./static/js/index.js"></script>
+  <link rel="shortcut icon" href="./image/logo.png">
 
 </head>
 <body>
@@ -26,8 +32,7 @@
       $list=count($array);
         for ($i=2; $i<$list; $i++){
           echo '<div class="row">
-                <div class="col-sm padding-1 ol-group" >';          
-       
+                <div class="col-sm">';                
           $fil=fopen($path."/international/".$array[$i],"r");
           $data=fgets($fil);
           $title=strtok($data,":");
@@ -53,8 +58,7 @@
       $list=count($array);
         for ($i=2; $i<$list; $i++){
           echo '<div class="row">
-                <div class="col-sm padding-1 ol-group" >';          
-       
+                <div class="col-sm">';          
           $fil=fopen($path."/placement/".$array[$i],"r");
           $data=fgets($fil);
           $title=strtok($data,":");
@@ -66,7 +70,6 @@
           
         }
     ?>
-
   </div>
 </div>
 

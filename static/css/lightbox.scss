@@ -1,24 +1,4 @@
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/CENTURY.ttf") format("TrueType");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century\ Bold.ttf") format("TrueType");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/ceiswfte.ttf") format("TrueType");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century\ Bold\ Italic.ttf") format("TrueType");
-  font-weight: bold;
-  font-style: italic;
-}
+@import "fonts.scss";
 .h1 {
   font-family: "Comic Sans MS" !important;
   text-align: center;
@@ -26,9 +6,19 @@
 body {
   background-color: white;
 }
-.col-sm img {
-  width: 100%;
-  height: 20vh;
+.fill-0 {
+  overflow: visible;
+  .padding-0 {
+    img {
+      width: 100%;
+      height: 20vh;
+      transition: all 0.3s ease-out;
+    }
+    img:hover {
+      transform: scale(1.5);
+      cursor: pointer;
+    }
+  }
 }
 .scroll {
   position: relative;
@@ -81,7 +71,7 @@ body {
 
 /* The Modal (background) */
 .modal {
-  display: none;
+  display: block;
   position: relative;
   z-index: 1;
   padding-top: 0px;
