@@ -21,13 +21,13 @@
   <script src="./static/js/lightbox.js"></script>
   <link rel="shortcut icon" href="image/logo.png">
   <script>
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    //document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
 </head>
 
 <body>
   <div class="container mt-3">
-    <div class="fill-0">
+    <div id="fill-0" class="fill-0">
       <h1 class="h1">Lightbox</h1>
       <p class="p1"></p>
       <?php
@@ -37,12 +37,12 @@
       for ($i = 0; $i < $count - 2; $i++) {
         if ($i % 5 == 0) {
           echo '<div class="row">
-              <div class="col-sm padding-0" style="padding:0">
-          <img src="image/lightbox/' . $photo[$i] . '" onclick="openModal();currentSlide(' . ($i + 1) . ')" class="hover-shadow cursor">
+              <div class="col-sm padding-0 imggrid" style="padding:0">
+          <img src="image/lightbox/' . $photo[$i] . '" class="hover-shadow cursor">
           </div>';
         } else {
-          echo '<div class="col-sm padding-0" style="padding:0">
-          <img src="image/lightbox/' . $photo[$i] . '" onclick="openModal();currentSlide(' . ($i + 1) . ')" class="hover-shadow cursor">
+          echo '<div class="col-sm padding-0 imggrid" style="padding:0">
+          <img src="image/lightbox/' . $photo[$i] . '" class="hover-shadow cursor">
           </div>';
           if (($i + 1) % 5 == 0) {
             echo '</div>';
@@ -56,27 +56,23 @@
 
   <?php include "footer.php" ?>
   <div class="container mt-3">
-    <div id="myModal" class="modal ">
+    <div id="modal" class="modal">
       <div class="row">
         <div class="col-sm-9">
-          <span class="close cursor color-fbg" onclick="closeModal()">&times;</span>
+          <span class="close color-fbg" onclick="closeModal()">&times;</span>
           <div class="modal-content view-img">
             <td>
               <?php
               for ($i = 0; $i < $count - 2; $i++) {
-                echo '<div class="mySlides">
-            <div class="numbertext">' . ($i + 1) . ' / 20</div>
-            <img src="image/lightbox/' . $photo[$i] . '">
-            </div>';
+                echo '<div class="slides">
+                      <div class="numbertext">' . ($i + 1) . ' / 20</div>
+                      <figure><img src="image/lightbox/' . $photo[$i] . '"><figcaption></figcaption></figure>
+                      </div>';
               }
               ?>
             </td>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-            <div class="caption-container">
-              <p id="caption"></p>
-            </div>
+            <a id="prev" class="prev">&#10094;</a>
+            <a id="next" class="next">&#10095;</a>
           </div>
         </div>
         <div class="col-sm-3">
@@ -87,7 +83,7 @@
                 echo '
               <div class = "row">
               <div class="col-sm image-small-show">
-              <img src="image/lightbox/' . $photo[$i] . '" onclick="currentSlide(' . ($i + 1) . ')" alt="">
+              <img class = "img" src="image/lightbox/' . $photo[$i] . '" alt="">
               </div></div>';
               }
               /* else{
@@ -107,7 +103,7 @@
     </div>
     <?php include "footer.php" ?>
   </div>
-  <script src="./static/js/lightbox.js"></script>
+  <!--<script src="./static/js/lightbox.js"></script>-->
 </body>
 
 </html>

@@ -1,9 +1,44 @@
+$(document).ready(function(){
+  $("#prev").click(function(){
+      plusSlides(-1);
+  });
+  $("#next").click(function(){
+    plusSlides(+1);
+  });
+  $(document).keydown(function (event) {
+    if (event.which == 37){
+      plusSlides(-1);
+    }
+    if (event.which == 39){
+      plusSlides(1);
+    }
+  });
+});
+
+$(document).ready(function(){
+  $(".imggrid").each(function(index){
+    $(this).click(function(){
+      openModal();
+      currentSlide(index+1);
+      console.log(index);
+    });  
+  });
+
+  $(".image-small-show").each(function(index){
+    $(this).click(function(){
+      currentSlide(index+1);
+    });
+  });
+});
+
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("modal").style.display = "block";
+  document.getElementById("fill-0").style.display = "none";
 }
   
 function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+  document.getElementById("modal").style.display = "none";
+  document.getElementById("fill-0").style.display = "block";
 }
   
 var slideIndex = 1; 
@@ -19,9 +54,10 @@ function currentSlide(n) {
   
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("img");
+  var actives = document.getElementsByClassName("image-small-show");
+  var captionText = document.getElementById("figcaption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -29,29 +65,14 @@ function showSlides(n) {
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
+      actives[i].firstElementChild.style.opacity = 0.5;
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className = " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-$(document).ready(function(){
-  $(document).keydown(function (event) {
-    if (event.which == 37){
-      plusSlides(-1);
-    }
-    if (event.which == 39){
-      plusSlides(1);
-    }
-  });
-});
+  dots[slideIndex-1].className += " active";
+  actives[slideIndex-1].firstElementChild.style.opacity = 1.;
 
-document.addEventListener("keydown", function(event){
-	if (event.which == 37){
-		plusSlides(-1);
-	}
-	if (event.which == 39){
-		plusSlides(1);
-	}
-	
-});
+  //captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
 

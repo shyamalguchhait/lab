@@ -1,24 +1,24 @@
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/CENTURY.ttf") format("TrueType");
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century Bold.ttf") format("TrueType");
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/ceiswfte.ttf") format("TrueType");
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century Bold Italic.ttf") format("TrueType");
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
   font-weight: bold;
   font-style: italic;
 }
@@ -33,6 +33,8 @@ body {
 }
 
 .fill-0 {
+  display: block;
+  width: 100%;
   overflow: visible;
 }
 
@@ -49,46 +51,6 @@ body {
   cursor: pointer;
 }
 
-.scroll {
-  position: relative;
-  padding: 0 10% 0 10%;
-  margin: 0 10% 0 10%;
-  overflow: scroll;
-}
-
-.scroll .image-small-show {
-  opacity: 0.8;
-}
-
-.scroll .image-small-show img {
-  width: 100%;
-  height: 20vh;
-  padding-bottom: 14px;
-  margin-bottom: 0px;
-}
-
-.scroll .image-small-show:hover,
-.scroll .image-small-show:focus,
-.scroll .image-small-show:active {
-  opacity: 1;
-}
-
-.view-img {
-  padding-top: 0 !important;
-  border-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-.view-img img {
-  width: 100%;
-  max-width: 1900px;
-  display: block;
-  margin: auto;
-  background-color: black;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -100,27 +62,54 @@ body {
   clear: both;
 }
 
-.column {
-  float: left;
-  width: 25%;
-}
-
 /* The Modal (background) */
 .modal {
-  display: block;
-  position: relative;
+  display: none;
+  width: 100%;
+  height: 90vh;
+  background-color: white;
   z-index: 1;
-  padding-top: 0px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* The Close Button */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Number text (1/3 etc) */
+}
+
+.modal .row .slides {
+  position: fixed;
+  overflow: hidden;
+}
+
+.modal .view-img {
+  color: white;
+  background-color: white;
+  padding: 0 !important;
+  border: 0 !important;
+  margin: 0 !important;
+  /* Modal Content */
+}
+
+.modal .view-img .close:hover,
+.modal .view-img .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal .view-img .slides {
+  display: none;
   background-color: black;
 }
 
-/* Modal Content */
-.modal-content {
+.modal .view-img .modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -129,31 +118,35 @@ body {
   max-width: 1200px;
 }
 
-/* The Close Button */
-.close {
+.modal .view-img figure img {
+  width: 100%;
+  max-width: 1900px;
+  color: white;
+  background-color: white;
+  display: block;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modal .view-img figure figcaption {
+  display: none;
+  background-color: white;
+}
+
+.modal .close {
   color: white;
   position: absolute;
   top: 10px;
-  right: 25px;
-  font-size: 35px;
+  right: 30%;
+  font-size: xx-large;
   font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
+  z-index: +1;
   cursor: pointer;
 }
 
-.mySlides {
-  display: none;
-  background-color: black;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
+.modal .prev,
+.modal .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -172,20 +165,17 @@ body {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
+.modal .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.modal .prev:hover,
+.modal .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
+.modal .numbertext {
   color: #f2f2f2;
   font-size: 30px;
   padding: 8px 12px;
@@ -193,47 +183,27 @@ body {
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
+.modal .scroll {
+  position: relative;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
 }
 
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
-
-img.hover-shadow {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.cont > div {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: 10%;
-  height: 100%;
-  background-color: black;
-}
-
-.box {
-  position: fixed;
-  padding-bottom: 30px;
+.modal .scroll .image-small-show img {
   width: 100%;
-  height: 50px;
-  overflow: scroll;
+  height: 20vh;
+  opacity: 0.5;
+}
+
+.modal .scroll .image-small-show:hover img,
+.modal .scroll .image-small-show:focus img,
+.modal .scroll .image-small-show:active img {
+  opacity: 1;
+}
+
+.modal .scroll .active {
+  border: 1px solid black;
 }
 /*# sourceMappingURL=lightbox.css.map */
