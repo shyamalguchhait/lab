@@ -30,7 +30,7 @@
             <div class="info">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="name">Shyamal Guchhait</div>
+                        <div class="name">Shyamal Guchhait, <span>MS</span></div>
                     </div>
                 </div>
                 <div class="row">
@@ -46,7 +46,20 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">$position</div>
+                        <div class="value">SRF</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm webpage">
+                        <div class="base">Webpage</div>
+                    </div>
+                    <div class="col-sm webpage">
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~sg16ip022">sg16ip022</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="fill">Shyamal currently pursuing his Integrated MS-PhD Dual Degree at IISER-K. He has done his three years bachelor degree in Physics (Honours) from Panskura Banamali College under <a href='http://www.vidyasagar.ac.in'>Vidyasagar University</a>. His research interests lies in Plasmonics and Weak Measurement.</div>
+                        </div>
                     </div>
                 </div>
             </div>

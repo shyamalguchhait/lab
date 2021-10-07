@@ -1,35 +1,51 @@
-@font-face{
+@font-face {
   font-family: "Comic Sans MS";
-  src: url("fonts/comic-sans-ms/COMIC.TTF") format("TrueType");
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
   font-weight: normal;
 }
-@font-face{
+
+@font-face {
   font-family: "Comic Sans MS";
-  src: url("fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf") format("TrueType");
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
   font-weight: bold;
 }
-body{
-  background-color:  rgb(151, 187, 228) !important;
-}
-.h2{
-    color:deeppink;
-    font-family: "Comic Sans MS";
-    text-align: center;
-    height:auto;
-    font-weight: bold !important;
-  }
-  
-  .p{
-    font-family: "Comic Sans MS";
-    font-size: 20px !important;
-    color: black !important;
-  }
 
-  .p a{
-    color: blue;
-  }
-  .p a:hover{
-    color: red;
-    font-weight: bold;
-    text-decoration: none;
-  }
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+.h2 {
+  color: black;
+  text-align: center;
+  font-size: xx-large !important;
+  font-family: "Comic Sans MS";
+  height: auto;
+  font-weight: bold !important;
+}
+
+.p {
+  font-family: "Comic Sans MS";
+  font-size: large !important;
+  color: black !important;
+}
+
+.p a {
+  color: blue;
+  text-decoration: none;
+}
+
+.p a:hover {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=contact.css.map */

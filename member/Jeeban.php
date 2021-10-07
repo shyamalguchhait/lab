@@ -30,7 +30,7 @@
             <div class="info">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="name">Jeeban Nayak</div>
+                        <div class="name">Jeeban Nayak, <span>BS-MS</span></div>
                     </div>
                 </div>
                 <div class="row">
@@ -38,7 +38,7 @@
                         <div class="base">Email</div>
                     </div>
                     <div class="col-sm email">
-                        <div class="value"><a href="mailto:jkn14ms146@iiserkol.ac.in">jkn14ms146@iiserkol.ac.in</a></div>
+                        <div class="value"><a href="mailto:jkn19rs027@iiserkol.ac.in">jkn19rs027@iiserkol.ac.in</a></div>
                     </div>
                 </div>
                 <div class="row">
@@ -46,7 +46,21 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">$position</div>
+                        <div class="value">SRF
+</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm webpage">
+                        <div class="base">Webpage</div>
+                    </div>
+                    <div class="col-sm webpage">
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~jkn19rs027">jkn19rs027</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="fill">Jeeban completed Integrated BS-MS Dual Degree program at the Department of Physical Sciences, IISER-K as a DST-INSPIRE Fellow. His research interests include experimental studies on light-matter interaction in Spectral domain and nano-Plasmonic system. Currently he is a Ph.D student in IISER-K.</div>
+                        </div>
                     </div>
                 </div>
             </div>

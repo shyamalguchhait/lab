@@ -252,7 +252,7 @@
                                     <div class="email">
                                         <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
                                     </div>
-                                    <?php if($cp != "#") { ?>
+                                    <?php if ($cp != "#") { ?>
                                         <div class="current-position"><?php echo $cp, ", ", $position ?></div>
                                     <?php } ?>
                                 </div>
@@ -275,7 +275,7 @@
                                     <div class="email">
                                         <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
                                     </div>
-                                    <?php if($cp != "#") { ?>
+                                    <?php if ($cp != "#") { ?>
                                         <div class="current-position"><?php echo $cp, ", ", $position ?></div>
                                     <?php } ?>
                                 </div>

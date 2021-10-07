@@ -1,0 +1,26 @@
+@import "fonts.scss";
+.h2 {
+  color: black;
+  text-align: center;
+  font-size: xx-large !important;
+  font-family: "Comic Sans MS";
+
+  height: auto;
+  font-weight: bold !important;
+}
+
+.p {
+  font-family: "Comic Sans MS";
+  font-size: large !important;
+  color: black !important;
+}
+
+.p a {
+  color: blue;
+  text-decoration: none;
+}
+.p a:hover {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}

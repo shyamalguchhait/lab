@@ -30,7 +30,7 @@
             <div class="info">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="name">Athira B S</div>
+                        <div class="name">Athira B S, <span>MS</span></div>
                     </div>
                 </div>
                 <div class="row">
@@ -46,7 +46,20 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">$position</div>
+                        <div class="value">SRF</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm webpage">
+                        <div class="base">Webpage</div>
+                    </div>
+                    <div class="col-sm webpage">
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~abs16rs013">abs16rs013</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="fill">Athira completed her MS by Research in Space Science from CESSI, IISER-K and joined as a research scholar at IISER-K since 2016. She is working on Polarimetry and its application in optical astronomy.</div>
+                        </div>
                     </div>
                 </div>
             </div>

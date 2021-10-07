@@ -13,11 +13,12 @@ for ($i = 2; $i < $list; $i++) {
     $FB = strtok("`");
     $tw = strtok("`");
     $fill = strtok("`");
+    $position = strtok("`");
     fclose($fil);
     $image = "../image/members/img_" . $name . ".jpg";
     $temp = file_get_contents("template.php");
-    $search = array("nname", "eemail", "iimage");
-    $replace = array($name, $email, $image);
+    $search = array("nname", "qqualification", "eemail", "iimage", "pposition", "wwebpage", "ffill");
+    $replace = array($name, $qualification, $email, $image, $position, $webpage, $fill);
     $str = str_replace($search, $replace, $temp);
     echo $str;
 

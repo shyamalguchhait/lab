@@ -30,7 +30,7 @@
             <div class="info">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="name">nname</div>
+                        <div class="name">nname, <span>qqualification</span></div>
                     </div>
                 </div>
                 <div class="row">
@@ -46,7 +46,20 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">$position</div>
+                        <div class="value">pposition</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm webpage">
+                        <div class="base">Webpage</div>
+                    </div>
+                    <div class="col-sm webpage">
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~wwebpage">wwebpage</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="fill">ffill</div>
+                        </div>
                     </div>
                 </div>
             </div>

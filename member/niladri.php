@@ -30,7 +30,7 @@
             <div class="info">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="name">Niladri Modak</div>
+                        <div class="name">Niladri Modak, <span>MS</span></div>
                     </div>
                 </div>
                 <div class="row">
@@ -46,7 +46,20 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">$position</div>
+                        <div class="value">SRF</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm webpage">
+                        <div class="base">Webpage</div>
+                    </div>
+                    <div class="col-sm webpage">
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~nm16ip018">nm16ip018</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="fill">Niladri passed BSc degree from Serampore College under the University of Calcutta and joined Integrated PhD here in 2016. Currently he is a JRF at IISER-K and working on Weak Measurement in optical system and nano-fabrication.</div>
+                        </div>
                     </div>
                 </div>
             </div>

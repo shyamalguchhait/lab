@@ -1,3 +1,5 @@
+@import "fonts.scss";
+
 @mixin value($position) {
   text-align: $position;
   margin: 10px;
@@ -39,20 +41,27 @@
     padding-top: 600px;
     .name {
       text-align: center;
-      font-size: x-large;
+      font-size: xx-large;
       position: relative;
+      span {
+        font-weight: bold;
+      }
     }
     .email {
+      color: black;
       .base {
         @include value(right);
       }
       .value {
         @include value(left);
         a {
+          color: black;
+          font-weight: bold;
           text-decoration: none;
         }
         a:hover {
-          font-weight: bold;
+          color: black;
+
           text-decoration: underline;
         }
       }
@@ -63,6 +72,37 @@
       }
       .value {
         @include value(left);
+      }
+    }
+    .webpage {
+      .base {
+        @include value(right);
+      }
+      .value {
+        @include value(left);
+        a {
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .fill {
+      width: 50%;
+      text-align: center;
+      font-size: large;
+      margin: auto;
+      position: relative;
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }
