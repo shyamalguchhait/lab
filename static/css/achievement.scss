@@ -1,25 +1,25 @@
 @import "fonts.scss";
-body{
-    font-family: 'Comic Sans MS' !important; 
-    padding-bottom: 30px !important;
+body {
+  font-family: "Comic Sans MS" !important;
+  padding-bottom: 30px !important;
 }
 .fill-0 {
-    .h1 {
-        text-align: center;
-        font-size: xx-large;
-    }
-    .h2{
-        text-align: left;
-        font-size: x-large;
-    }
-    .h3 {
-        text-align: left;
-        font-size: large;
-        font-weight: bold;
-    }
-    .p{
-        text-align: left;
-        font-size: large;
-        font-weight: normal;
-    }
+  .h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  .h2 {
+    text-align: left;
+    font-size: x-large;
+  }
+  .h3 {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+  }
+  .p {
+    text-align: left;
+    font-size: large;
+    font-weight: normal;
+  }
 }

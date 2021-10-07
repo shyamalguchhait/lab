@@ -60,7 +60,7 @@
       <div class="row">
         <div class="col-sm-9">
           <span class="close color-fbg" onclick="closeModal()">&times;</span>
-          <div class="modal-content view-img">
+          <div class="modal-content view-img" id="scrollspy">
             <td>
               <?php
               for ($i = 0; $i < $count - 2; $i++) {
