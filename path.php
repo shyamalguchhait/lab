@@ -1,5 +1,6 @@
 <?php
 $path = "/opt/lampp/htdocs/lab/web/web/lab";
+$path = "/var/www/html/lab/web/web/lab";
 //$path = "/home/users/nghosh/public_html";
 //$path = "C:/xampp/htdocs/lab/web/web/lab"; // windows 
 $slash = "/";
