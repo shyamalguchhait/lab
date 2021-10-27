@@ -28,7 +28,8 @@ html {
   --lightBtn: #fe016c;
   --lightBg: #fff;
   --lightColor: #232323;
-  --linkColor: #1111ff;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
 }
 
 html[data-theme="dark"] {
@@ -36,7 +37,8 @@ html[data-theme="dark"] {
   --lightBtn: #efbd07;
   --lightBg: #232323;
   --lightColor: #fff;
-  --linkColor: #eeee11;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
 }
 
 .img-zoom-container {

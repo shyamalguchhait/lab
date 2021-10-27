@@ -1,6 +1,7 @@
 @import "fonts.scss";
 
 body {
+  background-color: var(--lightBg) !important;
   padding-bottom: 50px !important;
   font-family: "Comic-Sans-MS" !important;
 }
@@ -62,13 +63,10 @@ body {
 }
 
 .p1 {
-  color: black;
+  color: var(--lightColor);
   text-align: left;
   font-size: x-large;
   font-weight: bold;
-}
-body {
-  background-color: var(--lightColor);
 }
 
 .welcome {
@@ -211,6 +209,7 @@ $duration: 10s;
 }
 .fill-0 {
   width: 100%;
+  background-color: var(--lightBg) !important;
   margin-top: 1em;
   overflow: hidden;
   .image {

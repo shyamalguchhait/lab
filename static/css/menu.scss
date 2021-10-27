@@ -1,5 +1,14 @@
 @import "fonts.scss";
 
+body {
+  font-family: "Comic Sans MS" !important;
+  padding-bottom: 30px !important;
+  .navbar-brand {
+    img {
+      width: 200px;
+    }
+  }
+}
 .bg-light {
   color: var(--lightColor) !important;
   background-color: var(--lightBg) !important;
@@ -27,17 +36,10 @@ nav {
   margin: 0;
   background-color: var(--lightBg) !important;
 }
-body {
-  background-color: var(--lightBg) !important;
-  font-family: "Comic Sans MS" !important;
-  padding-bottom: 30px !important;
-  .navbar-brand {
-    img {
-      width: 200px;
-    }
-  }
-}
+
 .switch {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
   float: right;
   input[type="checkbox"] {
     height: 0;
