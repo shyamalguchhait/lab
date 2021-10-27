@@ -1,26 +1,44 @@
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/CENTURY.ttf") format("TrueType");
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century Bold.ttf") format("TrueType");
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/ceiswfte.ttf") format("TrueType");
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Comic Sans MS";
-  src: url("../css/fonts/century/Century Bold Italic.ttf") format("TrueType");
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
   font-weight: bold;
   font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
 }
 
 body {
@@ -85,7 +103,7 @@ body {
 
 .h1 {
   font-weight: bold !important;
-  color: black;
+  color: var(--lightColor);
   text-align: center;
 }
 
@@ -97,19 +115,19 @@ body {
 }
 
 body {
-  background-color: white;
+  background-color: var(--lightColor);
 }
 
 .welcome {
   width: 100%;
-  color: white;
-  background-color: #0e6c68;
+  color: var(--lightBg);
+  background-color: var(--lightwelColor);
   margin: 0.5em 0.5em 0 0;
   padding: 0.5em 0.5em 1em 0;
 }
 
 .welcome .h2 {
-  color: white;
+  color: var(--lightBg);
   text-align: left;
   font-size: xx-large;
   height: auto;
@@ -153,7 +171,7 @@ body {
 }
 
 .research .col-sm a figure .img {
-  border: 0.5em solid black;
+  border: 0.5em solid var(--lightColor);
   overflow: hidden;
 }
 
@@ -166,14 +184,14 @@ body {
 
 .research .col-sm a figure .img img:hover,
 .research .col-sm a figure .img img:focus {
-  background-color: black;
+  background-color: var(--lightBg);
   opacity: 0.5;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
 .research .col-sm a figure figcaption {
-  color: black;
+  color: var(--lightColor);
   text-align: center;
   text-decoration: none;
   font-size: x-large;
@@ -186,7 +204,7 @@ body {
 
 .research .col-sm .write {
   display: none;
-  color: white;
+  color: var(--lightBg);
   font-size: x-large;
   font-weight: bold;
   text-align: center;
@@ -291,7 +309,7 @@ body {
   display: block;
   width: 100%;
   height: 2em;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(var(--lightColor), 0.3);
   padding-left: 100%;
   margin-top: 1em;
   overflow: hidden;
@@ -325,7 +343,7 @@ body {
 
 .fill-0 .ticker-wrap .ticker__item {
   display: inline-block;
-  color: black;
+  color: var(--lightColor);
   font-size: 1em;
   padding: 0 0;
 }

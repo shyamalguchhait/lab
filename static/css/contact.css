@@ -23,8 +23,26 @@
   font-style: italic;
 }
 
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
+}
+
 .h2 {
-  color: black;
+  color: var(--lightColor);
   text-align: center;
   font-size: xx-large !important;
   font-family: "Comic Sans MS";
@@ -35,16 +53,15 @@
 .p {
   font-family: "Comic Sans MS";
   font-size: large !important;
-  color: black !important;
+  color: var(--lightColor) !important;
 }
 
 .p a {
-  color: blue;
+  color: var(--lightlinkColor);
   text-decoration: none;
 }
 
 .p a:hover {
-  color: blue;
   font-weight: bold;
   text-decoration: underline;
 }

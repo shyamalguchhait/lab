@@ -1,8 +1,8 @@
 @import "fonts.scss";
 
 .bg-light {
-  color: black !important;
-  background-color: white !important;
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg) !important;
   font-size: x-large !important;
   font-family: "Comic Sans MS" !important;
   font-weight: bold !important;
@@ -13,21 +13,22 @@
   font-weight: normal;
   font-family: "Comic Sans MS";
   a {
-    color: black !important;
+    color: var(--lightColor) !important;
+    background-color: var(--lightBg);
   }
 }
 .nav-item-hover:hover .nav-link {
-  color: white !important;
-  background-color: rgb(0, 0, 0) !important;
+  color: var(--lightBg) !important;
+  background-color: var(--lightColor) !important;
   cursor: pointer;
 }
 nav {
   padding: 0 !important;
   margin: 0;
-  background-color: white !important;
+  background-color: var(--lightBg) !important;
 }
 body {
-  background-color: white !important;
+  background-color: var(--lightBg) !important;
   font-family: "Comic Sans MS" !important;
   padding-bottom: 30px !important;
   .navbar-brand {
@@ -35,4 +36,59 @@ body {
       width: 200px;
     }
   }
+}
+.switch {
+  float: right;
+  input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  label {
+    display: flex;
+    width: 55px;
+    height: 30px;
+    background: var(--lightBtn);
+    text-indent: -9999px;
+    margin: 0 auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+  }
+  label :after {
+    content: "";
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+  }
+  input:checked + label {
+    background: #ffbd07;
+  }
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+html.transition,
+html.transition *,
+html.transition *::before,
+html.transition *::after {
+  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
+  transition-delay: 0 !important;
 }

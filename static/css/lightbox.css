@@ -23,13 +23,31 @@
   font-style: italic;
 }
 
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
+}
+
 .h1 {
   font-family: "Comic Sans MS" !important;
   text-align: center;
 }
 
 body {
-  background-color: white;
+  background-color: var(--lightBg);
 }
 
 .fill-0 {
@@ -67,7 +85,7 @@ body {
   display: none;
   width: 100%;
   height: 90vh;
-  background-color: white;
+  background-color: var(--lightBg);
   z-index: 1;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -83,8 +101,8 @@ body {
 }
 
 .modal .view-img {
-  color: white;
-  background-color: white;
+  color: var(--lightColor);
+  background-color: var(--lightBg);
   padding: 0 !important;
   border: 0 !important;
   margin: 0 !important;
@@ -93,12 +111,12 @@ body {
 
 .modal .view-img .slides {
   display: none;
-  background-color: black;
+  background-color: var(--lightBg);
 }
 
 .modal .view-img .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: var(--lightBg);
   margin: auto;
   padding: 0;
   width: 100%;
@@ -108,8 +126,8 @@ body {
 .modal .view-img figure img {
   width: 100%;
   max-width: 1900px;
-  color: white;
-  background-color: white;
+  color: var(--lightColor);
+  background-color: var(--lightBg);
   display: block;
   margin: auto;
   -o-object-fit: cover;
@@ -118,11 +136,11 @@ body {
 
 .modal .view-img figure figcaption {
   display: none;
-  background-color: white;
+  background-color: var(--lightBg);
 }
 
 .modal .close {
-  color: white;
+  color: var(--lightBg);
   top: 10px;
   right: 30%;
   font-size: xx-large;
@@ -147,7 +165,7 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: var(--lightBg);
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;

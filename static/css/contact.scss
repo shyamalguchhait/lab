@@ -1,7 +1,7 @@
 @import "fonts.scss";
 
 .h2 {
-  color: black;
+  color: var(--lightColor);
   text-align: center;
   font-size: xx-large !important;
   font-family: "Comic Sans MS";
@@ -13,15 +13,15 @@
 .p {
   font-family: "Comic Sans MS";
   font-size: large !important;
-  color: black !important;
-}
+  color: var(--lightColor) !important;
 
-.p a {
-  color: blue;
-  text-decoration: none;
-}
-.p a:hover {
-  color: blue;
-  font-weight: bold;
-  text-decoration: underline;
+  a {
+    color: var(--lightlinkColor);
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }

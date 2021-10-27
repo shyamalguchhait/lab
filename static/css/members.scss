@@ -25,7 +25,7 @@
     .name {
       font-size: x-large;
       a {
-        color: black;
+        color: var(--lightlinkColor);
         text-decoration: none;
       }
       a:hover {
@@ -51,12 +51,12 @@
   }
   hr {
     width: 100%;
-    color: black !important;
-    background-color: black !important;
+    color: var(--lightColor) !important;
+    background-color: var(--lightColor) !important;
     height: 1px;
     margin: 0 0;
     margin-top: 1em;
-    border: 1px solid black;
+    border: 1px solid var(--lightColor);
     border-width: 0;
   }
 }

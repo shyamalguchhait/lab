@@ -12,8 +12,7 @@ body {
   }
   .title {
     a {
-      color: black;
-      font-weight: bolder;
+      color: var(--lightlinkColor);
       text-decoration: none;
       cursor: pointer;
     }

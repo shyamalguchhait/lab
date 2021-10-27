@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
+}
+
 .main {
   font-family: "Comic Sans MS";
   margin-left: 0px;
@@ -31,7 +74,7 @@
 }
 
 .main .info .name a {
-  color: black;
+  color: var(--lightlinkColor);
   text-decoration: none;
 }
 
@@ -61,12 +104,12 @@
 
 .main hr {
   width: 100%;
-  color: black !important;
-  background-color: black !important;
+  color: var(--lightColor) !important;
+  background-color: var(--lightColor) !important;
   height: 1px;
   margin: 0 0;
   margin-top: 1em;
-  border: 1px solid black;
+  border: 1px solid var(--lightColor);
   border-width: 0;
 }
 /*# sourceMappingURL=members.css.map */

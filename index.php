@@ -121,6 +121,3 @@ echo "\n"; ?>
 </body>
 
 </html>
-<!--
-  <?php include 'gototop.php'; ?>
-  <?php include 'footer.php'; ?>-->

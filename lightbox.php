@@ -101,9 +101,7 @@
         </div>
       </div>
     </div>
-    <?php include "footer.php" ?>
   </div>
-  <!--<script src="./static/js/lightbox.js"></script>-->
 </body>
 
 </html>

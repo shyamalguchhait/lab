@@ -11,3 +11,15 @@ document.addEventListener("scroll", function(){ // or window.addEventListener("s
    }
    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
+
+
+$(document).ready(function(){
+   $(".toggle").click(function(){
+      if($("input:checked").val()){
+         document.documentElement.setAttribute("data-theme","dark");
+      } else {
+         document.documentElement.setAttribute("data-theme", "light");
+      };
+      
+   });
+});

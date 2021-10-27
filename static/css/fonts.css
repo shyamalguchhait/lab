@@ -22,4 +22,22 @@
   font-weight: bold;
   font-style: italic;
 }
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: rgb(14, 108, 104);
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: rgb(241, 147, 151);
+}
 /*# sourceMappingURL=fonts.css.map */

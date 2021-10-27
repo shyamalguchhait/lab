@@ -23,6 +23,22 @@
   font-style: italic;
 }
 
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --linkColor: #1111ff;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --linkColor: #eeee11;
+}
+
 body {
   font-family: "Comic Sans MS" !important;
   padding-bottom: 30px !important;
