@@ -212,6 +212,73 @@
             <hr>
 
             <div>
+                <h2>Project</h2>
+                <p></p>
+                <?php
+                $path = $pathmem;
+                $folder = "/prjct/";
+                $array = scandir($path . $folder);
+                $list = count($array);
+                for ($i = 2; $i < $list; $i++) {
+                    $fil = fopen($path . $folder . $array[$i] . "/data.txt", "r");
+                    $data = fgets($fil);
+                    $name = strtok($data, "`");
+                    $qualification = strtok("`");
+                    $email = strtok("`");
+                    $webpage = strtok("`");
+                    $FB = strtok("`");
+                    $tw = strtok("`");
+                    $fill = strtok("`");
+                    fclose($fil);
+                ?>
+                    <?php if ($i % 2 == 0) { ?>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="pf-img">
+                                    <img src="./image/members/img_<?php echo $name ?>.jpg" alt="<?php echo $name ?>">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="info">
+                                    <div class="name">
+                                        <?php if ($qualification == "#") { ?>
+                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                        <?php } else { ?>
+                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } else { ?>
+                            <div class="col-sm">
+                                <div class="pf-img">
+                                    <img src="./image/members/img_<?php echo $name ?>.jpg" alt="<?php echo $name ?>">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="info">
+                                    <div class="name">
+                                        <?php if ($qualification == "#") { ?>
+                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                        <?php } else { ?>
+                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <?php }
+                } ?>
+            </div>
+            <hr>
+
+            <div>
                 <h2>Former</h2>
                 <p></p>
                 <?php

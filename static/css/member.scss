@@ -55,13 +55,12 @@
       .value {
         @include value(left);
         a {
-          color: black;
-          font-weight: bold;
+          color: blue;
+          font-weight: normal;
           text-decoration: none;
         }
         a:hover {
-          color: black;
-
+          font-weight: bold;
           text-decoration: underline;
         }
       }
@@ -72,6 +71,7 @@
       }
       .value {
         @include value(left);
+        font-weight: bold;
       }
     }
     .webpage {
@@ -81,21 +81,23 @@
       .value {
         @include value(left);
         a {
-          color: black;
+          color: blue;
+          font-weight: normal;
           text-decoration: none;
-          font-weight: bold;
         }
         a:hover {
+          font-weight: bold;
           text-decoration: underline;
         }
       }
     }
     .fill {
       width: 50%;
-      text-align: center;
+      text-align: justify;
       font-size: large;
       margin: auto;
       position: relative;
+      text-justify: auto;
       a {
         color: black;
         text-decoration: none;
