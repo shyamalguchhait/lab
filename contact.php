@@ -25,7 +25,7 @@
 
 <body>
   <?php include 'menu.php' ?>
-  <div class="fill-0">
+  <div class="contact">
     <div class="container mt-3">
       <iframe width=100% height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1024&amp;height=400&amp;hl=en&amp;q=iiser%20kolkata%20Kalyani+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
       <!--<a href='https://freehitcounters.org/'>freeHitCounters</a> <script type='text/javascript' 
@@ -56,3 +56,4 @@
 </body>
 
 </html>
+<?php include 'gototop.php'; ?>

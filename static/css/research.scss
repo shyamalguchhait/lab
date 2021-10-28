@@ -1,11 +1,10 @@
 @import "fonts.scss";
 
-body {
-  font-family: "Comic Sans Ms" !important;
-  padding-bottom: 30px !important;
+.research {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
 }
 .h1 {
-  color: var(--lightColor);
   font-size: xx-large !important;
   font-weight: bold !important;
 }
@@ -16,7 +15,6 @@ body {
 }
 
 .padding-0 {
-  color: var(--lightColor);
   text-align: justify;
   text-justify: inter-word;
   font-size: large;
@@ -43,7 +41,7 @@ body {
     text-decoration: none;
     figure {
       figcaption {
-        color: black;
+        color: var(--lightColor);
         text-align: center;
         font-size: large;
         font-weight: bold;

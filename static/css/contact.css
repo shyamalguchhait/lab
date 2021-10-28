@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   src: url("./fonts/century/CENTURY.ttf") format("TrueType");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   src: url("./fonts/century/Century Bold.ttf") format("TrueType");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
   font-weight: bold;
   font-style: italic;
@@ -29,7 +29,10 @@ html {
   --lightBg: #fff;
   --lightColor: #232323;
   --lightlinkColor: #1111ff;
-  --lightwelColor: rgb(14, 108, 104);
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #ff0800;
 }
 
 html[data-theme="dark"] {
@@ -38,7 +41,23 @@ html[data-theme="dark"] {
   --lightBg: #232323;
   --lightColor: #fff;
   --lightlinkColor: #eeee11;
-  --lightwelColor: rgb(241, 147, 151);
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+.contact {
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg);
+  margin: auto;
 }
 
 .h2 {
@@ -62,6 +81,7 @@ html[data-theme="dark"] {
 }
 
 .p a:hover {
+  color: var(--lightlinkColor);
   font-weight: bold;
   text-decoration: underline;
 }

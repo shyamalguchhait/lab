@@ -24,7 +24,7 @@
   <?php include 'menu.php'; ?>
   <?php require "path.php" ?>
 
-  <div class="fill-0">
+  <div class="achievement">
     <div class="container mt-3">
       <h1 class="h1">Student's archievement<h1>
           <h2 class="h2">Scholarship Fellowships & Awards</h2>

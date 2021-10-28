@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include 'menu.php' ?>
 <?php require "path.php" ?>
 <html lang="en">
 
@@ -26,8 +25,9 @@
 </head>
 
 <body>
-  <div class="container mt-3">
-    <div id="fill-0" class="fill-0">
+  <?php include 'menu.php' ?>
+  <div class="lightbox">
+    <div id="lightbox" class="container mt-3">
       <h1 class="h1">Lightbox</h1>
       <p class="p1"></p>
       <?php
@@ -105,3 +105,4 @@
 </body>
 
 </html>
+<?php include 'gototop.php'; ?>

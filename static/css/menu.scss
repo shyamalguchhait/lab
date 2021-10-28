@@ -38,9 +38,10 @@ nav {
 }
 
 .switch {
+  display: flex;
   color: var(--lightColor);
   background-color: var(--lightBg);
-  float: right;
+  align-items: center;
   input[type="checkbox"] {
     height: 0;
     width: 0;
@@ -61,7 +62,7 @@ nav {
     justify-content: center;
     cursor: pointer;
   }
-  label :after {
+  label:after {
     content: "";
     background: #fff;
     width: 20px;

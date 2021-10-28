@@ -1,5 +1,10 @@
 @import "fonts.scss";
 
+.contact {
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg);
+  margin: auto;
+}
 .h2 {
   color: var(--lightColor);
   text-align: center;
@@ -21,6 +26,7 @@
   }
 
   a:hover {
+    color: var(--lightlinkColor);
     font-weight: bold;
     text-decoration: underline;
   }

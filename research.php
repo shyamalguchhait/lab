@@ -20,7 +20,7 @@
 
 <body>
   <?php include 'menu.php'; ?>
-  <div class="fill-0">
+  <div class="research">
     <div class="container mt-3">
       <div class="res" id="res1">
         <h1 class="h1">Polarization and singular optics</h1>
@@ -252,3 +252,4 @@
 </body>
 
 </html>
+<?php include 'gototop.php'; ?>

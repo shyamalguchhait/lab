@@ -1,7 +1,8 @@
 @import "fonts.scss";
 
-.main {
-  font-family: "Comic Sans MS";
+.members {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
   margin-left: 0px; /* Same as the width of the sidenav */
   font-size: xx-large; /* Increased text to enable scrolling */
   padding: 0px 0px;
@@ -36,6 +37,7 @@
     .email {
       font-size: large;
       a {
+        color: var(--lightemailColor);
         text-decoration: none;
       }
       a:hover {

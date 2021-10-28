@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include "menu.php"; ?>
 <?php require "path.php"; ?>
 <html>
 
@@ -27,7 +26,8 @@
 </head>
 
 <body>
-    <div class="main">
+    <?php include "menu.php"; ?>
+    <div class="members">
         <div class="container">
             <div>
                 <h2>Group Leader</h2>
@@ -357,3 +357,4 @@
 </body>
 
 </html>
+<?php include 'gototop.php'; ?>

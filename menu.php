@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="./index.php">
@@ -58,6 +57,11 @@
                         </li>
                         <li class="nav-item">
                             <div class="nav-item-hover">
+                                <a class="nav-link" href="./extra.php">Extra</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-item-hover">
                                 <a class="nav-link" href="./lightbox.php">Lightbox</a>
                             </div>
                         </li>
@@ -78,5 +82,4 @@
 </body>
 
 </html>
-<?php include 'gototop.php'; ?>
 <?php include 'footer.php'; ?>

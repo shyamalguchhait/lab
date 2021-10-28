@@ -33,12 +33,12 @@ $(document).ready(function(){
 
 function openModal() {
   document.getElementById("modal").style.display = "block";
-  document.getElementById("fill-0").style.display = "none";
+  document.getElementById("lightbox").style.display = "none";
 }
   
 function closeModal() {
   document.getElementById("modal").style.display = "none";
-  document.getElementById("fill-0").style.display = "block";
+  document.getElementById("lightbox").style.display = "block";
 }
   
 var slideIndex = 1; 

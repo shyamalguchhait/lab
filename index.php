@@ -23,7 +23,7 @@
 <body>
   <?php include 'menu.php';
   echo "\n"; ?>
-  <div class="fill-0">
+  <div class="index">
     <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -121,3 +121,4 @@
 </body>
 
 </html>
+<?php include 'gototop.php'; ?>
