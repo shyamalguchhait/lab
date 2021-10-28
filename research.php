@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include 'menu.php'; ?>
 <html>
 
 <head>
@@ -20,6 +19,7 @@
 </head>
 
 <body>
+  <?php include 'menu.php'; ?>
   <div class="fill-0">
     <div class="container mt-3">
       <div class="res" id="res1">
