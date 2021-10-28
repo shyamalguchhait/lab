@@ -21,8 +21,8 @@
 </head>
 
 <body>
+  <?php include 'menu.php'; ?>
   <div class="publications">
-    <?php include 'menu.php'; ?>
     <div class="container mt-3">
       <h1 class="h1">Selected publications</h1>
       <h2 class="h2">Journal publications</h2>
@@ -56,11 +56,7 @@
         }
       }
       ?>
-
     </div>
-  </div>
-
-  <div class="fill-0">
     <div class="container mt-3">
       <h1 class="h1"></h1>
       <h2 class="h2">Conference proceedings</h2>
@@ -94,11 +90,7 @@
         }
       }
       ?>
-
     </div>
-  </div>
-
-  <div class="fill-0">
     <div class="container mt-3">
       <h1 class="h1"></h1>
       <h2 class="h2">Book chapters</h2>
