@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<?php include 'menu.php';
-echo "\n"; ?>
+
 <html lang="en">
 
 <head>
@@ -22,7 +21,8 @@ echo "\n"; ?>
 </head>
 
 <body>
-
+  <?php include 'menu.php';
+  echo "\n"; ?>
   <div class="fill-0">
     <div class="container">
       <div class="row">
