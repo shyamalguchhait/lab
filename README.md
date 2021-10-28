@@ -1,5 +1,7 @@
 # lab
 
+# bioNaP
+
 /opt/lampp/htdocs/lab/web/web/lab
 
 /var/www/html/lab/web/web/lab
