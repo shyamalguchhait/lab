@@ -53,10 +53,13 @@
       ?>
     </div>
   </div>
-
   <?php include "footer.php" ?>
-  <div class="container mt-3">
+  
+ 
+  <div class="lightbox">
     <div id="modal" class="modal">
+    <?php include 'menu.php' ?>
+    <div class="container mt-3">
       <div class="row">
         <div class="col-sm-9">
           <span class="close color-fbg" onclick="closeModal()">&times;</span>
@@ -101,6 +104,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </body>
 

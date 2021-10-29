@@ -14,7 +14,12 @@ document.addEventListener("scroll", function(){ // or window.addEventListener("s
 
 
 $(document).ready(function(){
-   $(".toggle").click(function(){
+   if($("input:checked").val()){// after load check previous 
+      document.documentElement.setAttribute("data-theme","dark"); 
+   } else {
+      document.documentElement.setAttribute("data-theme", "light");
+   };
+   $(".toggle").click(function(){// click 
       if($("input:checked").val()){
          document.documentElement.setAttribute("data-theme","dark");
       } else {
@@ -22,4 +27,10 @@ $(document).ready(function(){
       };
       
    });
+   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
+   if (darkThemeMq.matches){
+      document.documentElement.setAttribute("data-theme","dark");
+   } else{
+      document.documentElement.setAttribute("data-theme","light");
+   }
 });

@@ -65,7 +65,6 @@ body {
 
 .lightbox {
   display: block;
-  width: 100%;
   overflow: visible;
 }
 
@@ -153,12 +152,13 @@ body {
 }
 
 .modal .close {
-  color: var(--lightBg);
-  top: 10px;
+  color: #f00;
+  background-color: #000;
   right: 30%;
   font-size: xx-large;
   font-weight: bold;
-  padding: 0, 2em 0 2em;
+  padding: 0px 10px 0 10px;
+  margin-right: 40px;
   position: absolute;
   z-index: +1;
   cursor: pointer;
@@ -166,8 +166,8 @@ body {
 
 .modal .close:hover,
 .modal .close:focus {
-  color: #999;
-  background-color: black;
+  color: #000;
+  background-color: #f00;
   text-decoration: none;
   cursor: pointer;
 }
