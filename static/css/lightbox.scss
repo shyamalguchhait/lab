@@ -54,6 +54,7 @@ body {
     margin: 0 !important;
     .slides {
       display: none;
+      width: auto;
       background-color: var(--lightBg);
     }
 
@@ -70,6 +71,9 @@ body {
     figure {
       img {
         width: 100%;
+        height: 40vh;
+        max-height: 50vh;
+        min-width: 300px;
         max-width: 1900px;
         color: var(--lightColor);
         background-color: var(--lightBg);
@@ -86,18 +90,32 @@ body {
   }
   /* The Close Button */
   .close {
+    width: auto;
+    height: 3ex;
     color: #f00;
     background-color: #000;
     //top: 10px;
-    right: 30%;
+    //right: 30%;
     font-size: xx-large;
     font-weight: bold;
-    padding: 0px 10px 0 10px;
-    margin-bottom: 0;
-    position: absolute;
-    float: none;
-    z-index: 99;
-    cursor: pointer;
+    padding: 0ex 1ex 0ex 1ex;
+    margin-bottom: -3ex;
+    position: relative;
+    float: right;
+    z-index: +1;
+    cursor: pointer; /*
+    .color-fbg {
+      color: red;
+      background-color: black;
+      padding: 0 1ex 0 1ex;
+      margin-right: -200px;
+      position: absolute;
+    }
+    .color-fbg:hover,
+    .color-fbg:focus {
+      color: black;
+      background-color: red;
+    }*/
   }
   .close:hover,
   .close:focus {
@@ -110,6 +128,7 @@ body {
   /* Next & previous buttons */
   .prev,
   .next {
+    color: rgb(179, 122, 202) !important;
     top: 50%;
     width: auto;
     padding: 16px;
