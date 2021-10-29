@@ -14,23 +14,33 @@ document.addEventListener("scroll", function(){ // or window.addEventListener("s
 
 
 $(document).ready(function(){
-   if($("input:checked").val()){// after load check previous 
-      document.documentElement.setAttribute("data-theme","dark"); 
-   } else {
-      document.documentElement.setAttribute("data-theme", "light");
-   };
    $(".toggle").click(function(){// click 
       if($("input:checked").val()){
          document.documentElement.setAttribute("data-theme","dark");
+         $.cookie("theme","dark");
       } else {
          document.documentElement.setAttribute("data-theme", "light");
+         $.cookie("theme", "light");
       };
       
    });
-   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
-   if (darkThemeMq.matches){
-      document.documentElement.setAttribute("data-theme","dark");
-   } else{
-      document.documentElement.setAttribute("data-theme","light");
+   var theme = $.cookie("theme");
+   if (theme){
+      if (theme == "dark"){
+         document.documentElement.setAttribute("data-theme","dark");
+         $("#switch").prop("checked", true);
+      } else{
+         document.documentElement.setAttribute("data-theme","light");
+         $("#switch").prop("checked", false);
+      }
+
+   }else{
+      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
+      if (darkThemeMq.matches){
+         document.documentElement.setAttribute("data-theme","dark");
+         $("#switch").prop("checked", "true");
+      } else{
+         document.documentElement.setAttribute("data-theme","light");
+      }
    }
 });

@@ -127,8 +127,6 @@
 
     </div>
   </div>
-  <?php include "gototop.php" ?>
-  <?php include 'footer.php' ?>
 </body>
 
 </html>
