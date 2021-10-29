@@ -54,42 +54,44 @@
     </div>
   </div>
   <?php include "footer.php" ?>
-  
- 
+
+
   <div class="lightbox">
     <div id="modal" class="modal">
-    <?php include 'menu.php' ?>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-sm-9">
-          <span class="close color-fbg" onclick="closeModal()">&times;</span>
-          <div class="modal-content view-img" id="scrollspy">
-            <td>
-              <?php
-              for ($i = 0; $i < $count - 2; $i++) {
-                echo '<div class="slides">
+      <?php include 'menu.php' ?>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="close">
+              <span class="color-fbg" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-content view-img" id="scrollspy">
+              <td>
+                <?php
+                for ($i = 0; $i < $count - 2; $i++) {
+                  echo '<div class="slides">
                       <div class="numbertext">' . ($i + 1) . ' / 20</div>
                       <figure><img src="image/lightbox/' . $photo[$i] . '"><figcaption></figcaption></figure>
                       </div>';
-              }
-              ?>
-            </td>
-            <a id="prev" class="prev">&#10094;</a>
-            <a id="next" class="next">&#10095;</a>
+                }
+                ?>
+              </td>
+              <a id="prev" class="prev">&#10094;</a>
+              <a id="next" class="next">&#10095;</a>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="scroll">
-            <?php
-            for ($i = 0; $i < $count - 2; $i++) {
-              if ($i % 1 == 0) {
-                echo '
+          <div class="col-sm-3">
+            <div class="scroll">
+              <?php
+              for ($i = 0; $i < $count - 2; $i++) {
+                if ($i % 1 == 0) {
+                  echo '
               <div class = "row">
               <div class="col-sm image-small-show">
               <img class = "img" src="image/lightbox/' . $photo[$i] . '" alt="">
               </div></div>';
-              }
-              /* else{
+                }
+                /* else{
             echo'
             <div class="col-sm image-small-show">
             <img class="demo cursor" src="image/lightbox/'.$photo[$i].'" onclick="currentSlide('.($i+1).')" alt="Nature and sunrise">
@@ -98,13 +100,13 @@
             echo "</div>";
             }
           }*/
-            }
-            ?>
+              }
+              ?>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 </body>
 

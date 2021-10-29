@@ -10,10 +10,11 @@
     <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
     <meta name="author" content="">
     <title></title>
-    <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
-    <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
-    <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="../static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
+    <script src="../static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+    <script src="../static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../static/bootstrap-5.0.2-dist/carhartl-jquery-cookie/jquery.cookie.js" type="text/javascript"></script>
     <link rel="stylesheet" href="../static/css/menu.css" type="text/css">
     <script src="../static/js/menu.js" type="text/javascript"></script>
 </head>

@@ -158,9 +158,10 @@ body {
   font-size: xx-large;
   font-weight: bold;
   padding: 0px 10px 0 10px;
-  margin-right: 40px;
+  margin-bottom: 0;
   position: absolute;
-  z-index: +1;
+  float: none;
+  z-index: 99;
   cursor: pointer;
 }
 
