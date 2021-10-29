@@ -22,6 +22,7 @@
   <script>
     //document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
+  <script src="./static/bootstrap-5.0.2-dist/swiped-events-master/src/swiped-events.js"></script>
 </head>
 
 <body>
