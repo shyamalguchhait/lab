@@ -73,7 +73,6 @@
           ?>
     </div>
   </div>
-
 </body>
-
 </html>
+<?php include 'gototop.php'; ?>

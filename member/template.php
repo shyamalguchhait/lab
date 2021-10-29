@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include "./menu.php"; ?>
 <?php require "../path.php"; ?>
 <html lang="en">
 
@@ -17,7 +16,7 @@
 </head>
 
 <body>
-
+    <?php include "./menu.php"; ?>
     <div class="container">
         <div class="member">
             <div class="bg-img">
@@ -66,5 +65,4 @@
         </div>
     </div>
 </body>
-
 </html>

@@ -31,7 +31,7 @@ html {
   --lightlinkColor: #1111ff;
   --lightwelColor: #eee;
   --lightwelBg: rgb(14, 108, 104);
-  --lighttikcerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lighttikcerColor: black;
   --lightemailColor: #ff0800;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .member .info .email {
-  color: black;
+  color: var(--lightColor);
 }
 
 .member .info .email .base {
@@ -119,7 +119,7 @@ body {
 }
 
 .member .info .email .value a {
-  color: var(--lightlinkColor);
+  color: var(--lightemailColor);
   font-weight: normal;
   text-decoration: none;
 }

@@ -48,14 +48,14 @@
       }
     }
     .email {
-      color: black;
+      color: var(--lightColor);
       .base {
         @include value(right);
       }
       .value {
         @include value(left);
         a {
-          color: var(--lightlinkColor);
+          color: var(--lightemailColor);
           font-weight: normal;
           text-decoration: none;
         }
