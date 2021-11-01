@@ -102,7 +102,7 @@
         <div class="row">
           <div class="col-sm padding-0">
             <div class="write">
-              When Weak is Powerful Weak Value amplification got considerable attention, specifically, in the domain of optics since the last two decades, to amplify and detect tiny optical effects. We use classical light to perform quantum weak measurement that enables considerably significant amplification of extremely tiny spin-optical effects, offers dramatic control over resonance phenomena, and opens up a novel route towards the development of spin-photonic metadevices. We have also applied this enhancement technique to implement a new concept of weak value polarimeter, which is capable of enhanced detection of small sample polarization effects breaking conventional limits of traditional polarimeters.
+              Weak Value amplification got considerable attention, specifically, in the domain of optics since the last two decades, to amplify and detect tiny optical effects. We use classical light to perform quantum weak measurement that enables considerably significant amplification of extremely tiny spin-optical effects, offers dramatic control over resonance phenomena, and opens up a novel route towards the development of spin-photonic metadevices. We have also applied this enhancement technique to implement a new concept of weak value polarimeter, which is capable of enhanced detection of small sample polarization effects breaking conventional limits of traditional polarimeters.
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@
         <div class="row">
           <div class="col-sm padding-0">
             <div class="write">
-              When Weak is Powerful Weak Value amplification got considerable attention, specifically, in the domain of optics since the last two decades, to amplify and detect tiny optical effects. We use classical light to perform quantum weak measurement that enables considerably significant amplification of extremely tiny spin-optical effects, offers dramatic control over resonance phenomena, and opens up a novel route towards the development of spin-photonic metadevices. We have also applied this enhancement technique to implement a new concept of weak value polarimeter, which is capable of enhanced detection of small sample polarization effects breaking conventional limits of traditional polarimeters.
+              We use FEM and FDTD methods to simulate nano structure and study polarization dpendent spectral modification of the scattering of these samples. Simulation of the desired structures provide the fine tuning of the parameters of the structures which help us to fabricate it precisely.
             </div>
           </div>
         </div>
