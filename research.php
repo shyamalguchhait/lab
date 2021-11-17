@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="poster">
-        <h2>??</h2>
+        <h2>Selected posters</h2>
         <div class="row">
           <div class="col-sm"><a href="views.php?i=1/MM.png">
               <figure>
@@ -84,18 +84,18 @@
 
         <div class="row">
           <div class="col-sm padding-0">
-            <figure><img src="image/research/forward MM.png">
-              <figcaption>Forward scattering setup</figcaption>
+            <figure><img src="image/research/weak-andor.jpg">
+              <figcaption>Weak measurement in partial refraction</figcaption>
             </figure>
           </div>
           <div class="col-sm padding-0">
-            <figure><img src="image/research/back_ MM.png">
-              <figcaption>Back scattering setup</figcaption>
+            <figure><img src="image/research/weak.jpg">
+              <figcaption></figcaption>
             </figure>
           </div>
           <div class="col-sm padding-0">
-            <figure><img src="image/research/MC MM.jpg">
-              <figcaption>Darkfield scattering setup</figcaption>
+            <figure><img src="image/research/weak_.jpg">
+              <figcaption></figcaption>
             </figure>
           </div>
         </div>
@@ -108,13 +108,15 @@
         </div>
       </div>
       <div class="poster">
-        <h2>??</h2>
+        <h2>Selected posters</h2>
         <div class="row">
           <div class="col-sm"><a href="views.php?i=2/v1.png">
               <figure>
                 <figcaption>Weak Value Polarimeter</figcaption><img src="./image/research/2/v1.png" alt="">
               </figure>
-            </a></div>
+            </a></div> 
+            <div class="col-sm"></div><div class="col-sm"></div><div class="col-sm"></div>
+            <!--
           <div class="col-sm"><a href="./image/research/1/GP polarimeter.png">
               <figure>
                 <figcaption>Geometric phase polarimeter</figcaption><img src="./image/research/1/GP polarimeter.png" alt="">
@@ -129,7 +131,7 @@
               <figure>
                 <figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt="">
               </figure>
-            </a></div>
+            </a></div>-->
         </div>
       </div>
 
@@ -137,7 +139,7 @@
       <div class="res" id="res3">
         <h1 class="h1">Nano optics</h1>
         <p class="p1"></p>
-
+        <!--
         <div class="row">
           <div class="col-sm padding-0">
             <figure><img src="image/research/forward MM.png">
@@ -154,7 +156,7 @@
               <figcaption>Darkfield scattering setup</figcaption>
             </figure>
           </div>
-        </div>
+        </div>-->
         <div class="row">
           <div class="col-sm padding-0">
             <div class="write">
@@ -164,9 +166,10 @@
         </div>
       </div>
       <div class="poster">
-        <h2>??</h2>
+        <h2>Selected posters</h2>
         <div class="row">
-          <div class="col-sm"><a href="views.php?i=2/v1.png">
+          <div class="col-sm">Coming soon...</div><div class="col-sm"></div><div class="col-sm"></div><div class="col-sm"></div>
+          <!--<div class="col-sm"><a href="views.php?i=2/v1.png">
               <figure>
                 <figcaption>Weak Value Polarimeter</figcaption><img src="./image/research/2/v1.png" alt="">
               </figure>
@@ -185,7 +188,7 @@
               <figure>
                 <figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt="">
               </figure>
-            </a></div>
+            </a></div>-->
         </div>
       </div>
 
@@ -193,7 +196,7 @@
       <div class="res" id="res4">
         <h1 class="h1">Computational optics</h1>
         <p class="p1"></p>
-
+        <!--
         <div class="row">
           <div class="col-sm padding-0">
             <figure><img src="image/research/forward MM.png">
@@ -210,7 +213,7 @@
               <figcaption>Darkfield scattering setup</figcaption>
             </figure>
           </div>
-        </div>
+        </div>-->
         <div class="row">
           <div class="col-sm padding-0">
             <div class="write">
@@ -220,9 +223,10 @@
         </div>
       </div>
       <div class="poster">
-        <h2>??</h2>
+        <h2>Selected posters</h2>
         <div class="row">
-          <div class="col-sm"><a href="views.php?i=2/v1.png">
+        <div class="col-sm">Coming soon...</div><div class="col-sm"></div><div class="col-sm"></div><div class="col-sm"></div>
+          <!--<div class="col-sm"><a href="views.php?i=2/v1.png">
               <figure>
                 <figcaption>Weak Value Polarimeter</figcaption><img src="./image/research/2/v1.png" alt="">
               </figure>
@@ -241,7 +245,7 @@
               <figure>
                 <figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt="">
               </figure>
-            </a></div>
+            </a></div>-->
         </div>
       </div>
     </div>

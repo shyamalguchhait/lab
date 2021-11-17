@@ -60,9 +60,9 @@
                                 <div class="info">
                                     <div class="name">
                                         <?php if ($qualification == "#") { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } else { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } ?>
                                     </div>
                                     <div class="email">
@@ -108,9 +108,9 @@
                                 <div class="info">
                                     <div class="name">
                                         <?php if ($qualification == "#") { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } else { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } ?>
                                     </div>
                                     <div class="email">
@@ -175,9 +175,9 @@
                                 <div class="info">
                                     <div class="name">
                                         <?php if ($qualification == "#") { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } else { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } ?>
                                     </div>
                                     <div class="email">
