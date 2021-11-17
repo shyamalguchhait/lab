@@ -1,0 +1,33 @@
+@import "fonts.scss";
+
+.contact {
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg);
+  margin: auto;
+}
+.h2 {
+  color: var(--lightColor);
+  text-align: center;
+  font-size: xx-large !important;
+  font-family: "Century";
+
+  height: auto;
+  font-weight: bold !important;
+}
+
+.p {
+  font-family: "Century";
+  font-size: large !important;
+  color: var(--lightColor) !important;
+
+  a {
+    color: var(--lightlinkColor);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--lightlinkColor);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}

@@ -1,98 +1,124 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="IISER Kolkata BioNaP group official webpage">
-    <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
-    <meta name="author" content="Shyamal Guchhait">
-    <title>BioNaP Group-IISER Kolkata</title>
-    <link href="statics/bootstrap/bootstrap.min" rel="stylesheet">
-    <script src="statics/bootstrap/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="statics/bootstrap/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="statics/css/index.css" type="text/css">
-    <link rel="shortcut icon" href="image/logo.png">
-    </head>
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="IISER Kolkata BioNaP group official webpage">
+  <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
+  <meta name="author" content="">
+  <title>The Bio-Optics and Nano-Photonics Group of IISER-K</title>
+  <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+  <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./static/css/index.css" type="text/css">
+  <script href="./static/js/index.js"></script>
+  <link rel="shortcut icon" href="./image/logo.png">
+</head>
+
 <body>
-<?php include 'menu.php'; ?>
-<div>
-	<div class="fill-0">
-    <div class="container-fluid mt-3">
-      <h2></h2>
-      <p></p>
+  <?php include 'menu.php';
+  echo "\n"; ?>
+  <div class="index">
+    <div class="container">
       <div class="row">
-        <div class="col-sm padding-0"><img src="image/index/index1.jpg"></div>
-        <div class="col-sm padding-0"><img src="image/index/index2.jpg"></div>
-        <div class="col-sm padding-0"><img src="image/index/index3.jpg"></div>
+        <div class="col-sm">
+          <div class="image">
+            <div class="row">
+              <div class="col-sm image1"><img src="./image/index/index1.jpg"></div>
+              <div class="col-sm image2"><img src="./image/index/index2.jpg"></div>
+              <div class="col-sm image3"><img src="./image/index/index3.jpg"></div>
+            </div>
+          </div>
         </div>
       </div>
-  </div>
-</div>
-<div class="fill-0">
-  <div class="container-fluid mt-3">
-    <h1 class="h1">The Bio-Optics and Nano-Photonics Group of IISER-K</h1><br>
-    <p class="p1">The main research area of the group are <!--<strong>(i) Weak measurement</strong>
-      <strong>(ii) Nano-optics</strong> <strong>(iii) Singular optics</strong> 
-      <strong>(iv) Computational optics</strong> <strong> (v) Fabrication </strong>
-      <strong>(vi) Polarization Optics and optical polarimetry</strong> and 
-      <strong>(vii) Biophotonics</strong> --> </p>
-    <div class="row">
-      <div class="col-sm-9 padding-1 ul-group" > 
-        <h2 class="h2"> Weak measurement</h2>
-        <ul>
-          <li> Amplification of spin-optical effects E.g. optical spin Hall effect.</li>
-          <li> Quantitavite detection of tiny polarization anisotopy effects.</li>
-          <li> Natural weak value amplification of magneto-optical effects.</li>
-          <li> Weak measurement using spectral degree of freedom of light. </li>        
-        </ul>
-        <h2 class="h2"> Nano-optics</h2>
-        <ul>
-          <li> Basic studies on light-matter interactions at the nano scale.</li>
-          <li> studies on localized surface plasmon resonance in metal nano-structures.</li>
-          <li> Studies on coupled plasmons, plasmonic Fano resonances.</li>
-          <li> Spin Orbit interaction of light in micro and nano optical systems.</li>
-        </ul> 
-        <h2 class="h2"> Singular optics</h2>
-        <ul>
-          <li> Genarating orbital angular momentum carrying beam using spatially tailored metasurfaces.</li>
-          <li> Orbital Hall effects of light.</li>
-        </ul>
-        <h2 class="h2"> Computational optics</h2>
-        <ul>
-          <li> FEM & FDTD simulation for studying optical responses.</li>
-          <li> Simulation of Mueller matrix for the desired smaples.</li>
-        </ul>
 
-
-        <h2 class="h2"> Polarization optics</h2>
-        <ul>
-          <li> Basic studies on polarization (spin)optical effects.</li>
-          <li> Theoretical and experimental studies on polarization (Mueller matrices, Stokes vectors, Jones matrices) and coherence characteristics of scattered light in random medium.</li>
-        </ul>
-      
- 
-        <h2 class="h2"> Biophotonics</h2>
-        <ul>
-          <li> Develop novel optical spectroscopic approaches to probe sub-diffractional information on the morphology of complex systems such as biological tissues.</li>
-          <li> Mueller matrix polarimetry and its applications in biophotonics.</li>
-          <li> Investigate various optical spectroscopic approaches (Elastic scattering, Fluorescence, Raman) for probing biological systems and other complex systems.</li>
-        </ul>
-      
-
-      </div>
-
-      <div class="col-sm-3 padding-1 ul-group">
-      <div class="alert alert-warning">
-        <h2 class="h2"> Latest updates</h2>
-        <ul>
-          <li>Prof. Nirmalya Ghosh received G.G. Stokes Award in Optical Polarization </li>
-        </ol>
+      <div class="row">
+        <div class="col-sm">
+          <div class="welcome">
+            <h2 class="h2">Welcome to the bioNaP lab!</h2>
+            <p class="p">
+              The Bio-Optics and Nano photonics group is led by Prof. Nirmalya Ghosh. We mainly focus on the fundamental aspects of polarization of light by studying spin-orbit interaction of light and performing weak measurement. We also explore its application in realizing nano-optical devices as well as in metrology.
+            </p>
+          </div>
         </div>
       </div>
-      
+      <div class="row">
+        <div class="col-sm">
+          <div class="update">
+            <!--
+            <h2 class="h2">Latest updates:</h2>
+            <ul class="ul">
+              <li>Birefringent studies on self-healing piezo-electric crystal, <i>Science</i>, 2021, 373, 321–327.</li>
+              <li>Prof. Nirmalya Ghosh received G.G. Stokes Award in Optical Polarization.</li>
+            </ul>
+            </h2>-->
+            <div class="ticker-wrap">
+              <div class="ticker">
+                <div class="ticker__item">
+                  <strong>Latest updates:</strong>
+                </div>
+                <div class="ticker__item">
+                  Birefringent studies on self-healing piezo-electric crystal, <i>Science</i>, 2021, 373, 321–327.</li>
+                </div>
+                <div class="ticker__item">
+                  Prof. Nirmalya Ghosh received G.G. Stokes Award in Optical Polarization.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="research">
+            <h2 class="h2">Research interests</h2>
+            <div class="row">
+              <div class="col-sm" id="res1"><a href="./research.php#res1">
+                  <figure>
+                    <div class="img"><img src="./image/index/r0.jpg" alt=""></div>
+                    <figcaption>Polarization and singular optics</figcaption>
+                  </figure>
+                </a>
+                <p class="write"><a href="./research.php#res1">Polarization and singular optics</a></p>
+              </div>
+              <div class="col-sm" id="res2"><a href="./research.php#res2">
+                  <figure>
+                    <div class="img"><img src="./image/index/r1.png" alt=""></div>
+                    <figcaption>Weak measurements</figcaption>
+                  </figure>
+                </a>
+                <p class="write"><a href="./research.php#res1">Weak measurements</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm" id="res3"><a href="./research.php#res3">
+                  <figure>
+                    <div class="img"><img src="./image/index/r2.png" alt=""></div>
+                    <figcaption>Nano-optics</figcaption>
+                  </figure>
+                </a>
+                <p class="write"><a href="./research.php#res1">Nano-optics</a></p>
+              </div>
+              <div class="col-sm" id="res4"><a href="./research.php#res4">
+                  <figure>
+                    <div class="img"><img src="./image/index/r3.png" alt=""></div>
+                    <figcaption>Computational optics</figcaption>
+                  </figure>
+                </a>
+                <p class="write"><a href="./research.php#res1">Computational optics</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<?php include 'gototop.php'; ?>
-<?php include 'footer.php'; ?>
+  </div>
 </body>
+
 </html>
+<?php include 'gototop.php'; ?>

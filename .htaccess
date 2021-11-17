@@ -1,7 +1,13 @@
 RewriteEngine on
-RewriteRule ^(image/|statics/|data/|bionapdata/)/*?$ - [F,L]
-RewriteRule ^(image/extra|image/icon|image/index|image/lightbox}image/members|image/research)/*?$ - [F,L]
-RewriteRule ^(statics/css|statics/bootstrap|statics/js|statics/html)/*?$ - [F,L]
-RewriteRule ^(statics|data|bionapdata)/*?$ - [F,L]
-RewriteRule ^(data/extra|data/archievement|data/publications)/*?$ - [F,L]
-
+RewriteRule ^(image/|statics/|data/|bionapdata/)/_?$ - [F,L]
+RewriteRule ^(image/extra|image/icon|image/index|image/lightbox}image/members|image/research)/_?$ - [F,L]
+RewriteRule ^(statics/css|statics/bootstrap|statics/js|statics/html)/_?$ - [F,L]
+RewriteRule ^(statics|data|bionapdata)/_?$ - [F,L]
+RewriteRule ^(data/extra|data/archievement|data/publications)/_?$ - [F,L]
+<Directory /var/www/html>
+AllowOverride All
+<Directory>
+<VirtualHost _:80>
+DocumentRoot /var/www/html/
+ErrorDocument 404 http://localhost/lab/web/web/lab/custom-404.php
+</VirtualHost>

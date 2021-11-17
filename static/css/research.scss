@@ -1,0 +1,61 @@
+@import "fonts.scss";
+
+.research {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+}
+.h1 {
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+.p1 {
+  display: none;
+  font-family: "Comic Sans MS";
+}
+
+.padding-0 {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: large;
+  padding: 1em !important;
+  figure {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    img {
+      text-align: center;
+      width: 100%;
+      height: 200px;
+    }
+    figcaption {
+      text-align: center;
+    }
+  }
+  .write {
+    padding: 0.5em 0 0 0;
+  }
+}
+.poster {
+  a {
+    text-decoration: none;
+    figure {
+      figcaption {
+        color: var(--lightColor);
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      figcaption:hover,
+      figcaption:focus {
+        text-decoration: underline;
+      }
+      img {
+        width: 100%;
+        height: 300px;
+        border: 0.5em solid var(--lightColor);
+      }
+    }
+  }
+}

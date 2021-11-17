@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: black;
+  --lightemailColor: #ff0800;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+.members {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  margin-left: 0px;
+  /* Same as the width of the sidenav */
+  font-size: xx-large;
+  /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+.members h2 {
+  font-size: xx-large;
+  margin-top: 1em;
+}
+
+.members .col-sm {
+  margin: auto;
+}
+
+.members .pf-img {
+  height: 250px;
+  margin-top: 2em;
+}
+
+.members .pf-img img {
+  width: 250px;
+  height: 250px;
+}
+
+.members .info .name {
+  font-size: x-large;
+}
+
+.members .info .name a {
+  color: var(--lightlinkColor);
+  text-decoration: none;
+}
+
+.members .info .name a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.members .info .email {
+  font-size: large;
+}
+
+.members .info .email a {
+  color: var(--lightemailColor);
+  text-decoration: none;
+}
+
+.members .info .email a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.members .info .current-position {
+  text-align: left;
+  font-size: large;
+  position: relative;
+}
+
+.members hr {
+  width: 100%;
+  color: var(--lightColor) !important;
+  background-color: var(--lightColor) !important;
+  height: 1px;
+  margin: 0 0;
+  margin-top: 1em;
+  border: 1px solid var(--lightColor);
+  border-width: 0;
+}
+/*# sourceMappingURL=members.css.map */

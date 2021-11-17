@@ -1,0 +1,111 @@
+@import "fonts.scss";
+
+@mixin value($position) {
+  text-align: $position;
+  margin: 10px;
+  padding: 10px;
+}
+.member {
+  display: block;
+  width: 1300px;
+  overflow-x: hidden;
+  .bg-img {
+    display: block;
+    text-align: center;
+    width: 1300px;
+    //height: 500px;
+    background: url("../image/0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
+    position: absolute;
+    overflow: hidden;
+    pf-img {
+    }
+    img {
+      display: block;
+      text-align: center;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: auto auto;
+      margin-top: 300px;
+      position: relative;
+      overflow: visible;
+    }
+  }
+  .info {
+    padding-top: 600px;
+    .name {
+      text-align: center;
+      font-size: xx-large;
+      position: relative;
+      span {
+        font-weight: bold;
+      }
+    }
+    .email {
+      color: var(--lightColor);
+      .base {
+        @include value(right);
+      }
+      .value {
+        @include value(left);
+        a {
+          color: var(--lightemailColor);
+          font-weight: normal;
+          text-decoration: none;
+        }
+        a:hover {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+    }
+    .position {
+      .base {
+        @include value(right);
+      }
+      .value {
+        @include value(left);
+        font-weight: bold;
+      }
+    }
+    .webpage {
+      .base {
+        @include value(right);
+      }
+      .value {
+        @include value(left);
+        a {
+          color: var(--lightlinkColor);
+          font-weight: normal;
+          text-decoration: none;
+        }
+        a:hover {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+    }
+    .fill {
+      width: 50%;
+      text-align: justify;
+      font-size: large;
+      margin: auto;
+      position: relative;
+      text-justify: auto;
+      a {
+        color: var(--lightColor);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

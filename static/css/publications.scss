@@ -1,0 +1,21 @@
+@import "fonts.scss";
+
+.publications {
+  .h1 {
+    text-align: center;
+  }
+  .h2 {
+    text-align: left;
+  }
+  .title {
+    a {
+      color: var(--lightlinkColor);
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:hover {
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+  }
+}
