@@ -64,13 +64,13 @@ body {
   color: var(--lightColor);
   text-align: center;
   font-size: xx-large !important;
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   height: auto;
   font-weight: bold !important;
 }
 
 .p {
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   font-size: large !important;
   color: var(--lightColor) !important;
 }

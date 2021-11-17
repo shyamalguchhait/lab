@@ -1,7 +1,7 @@
 @import "fonts.scss";
 
 body {
-  font-family: "Comic Sans MS" !important;
+  font-family: "Century" !important;
   padding-bottom: 30px !important;
   .navbar-brand {
     img {
@@ -13,14 +13,14 @@ body {
   color: var(--lightColor) !important;
   background-color: var(--lightBg) !important;
   font-size: x-large !important;
-  font-family: "Comic Sans MS" !important;
+  font-family: "Century" !important;
   font-weight: bold !important;
 }
 
 .nav-item-hover {
   font-size: x-large;
   font-weight: normal;
-  font-family: "Comic Sans MS";
+  font-family: "Century";
   a {
     color: var(--lightColor) !important;
     background-color: var(--lightBg);
