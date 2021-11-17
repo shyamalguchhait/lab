@@ -1,0 +1,283 @@
+@import "fonts.scss";
+
+@-webkit-keyframes scalezoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+@keyframes scalezoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+/*
+.img-fixed {
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.p-2 border {
+  width: 33%;
+  background-color: rgba(0, 0, 255, 0.1);
+}*/
+/*.container{
+    margin: 0px !important;
+    border: 0px !important;
+    padding: 0px !important;
+}
+/*<!-- .row.no-gutter {
+    margin-left: 0;
+    margin-right: 0; 
+  }
+  .row.no-gutter [class*='col-']:not(:first-child),
+  .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .row > div {
+    background: lightgrey;
+    border: 1px solid;
+  }*/
+.index {
+  width: 100%;
+  background-color: var(--lightBg) !important;
+  margin-top: 1em;
+  overflow: hidden;
+  .image {
+    display: block;
+    .col-sm {
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+    .image1 {
+      margin-right: 0;
+      padding-right: 0;
+    }
+    .image2 {
+      margin: 0 0;
+      padding: 0 0;
+    }
+    .image3 {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  .padding-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .h1 {
+    font-weight: bold !important;
+    color: var(--lightColor);
+    text-align: center;
+  }
+
+  .p1 {
+    color: var(--lightColor);
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .welcome {
+    width: 100%;
+    color: var(--lightwelColor);
+    background-color: var(--lightwelBg);
+    margin: 0.5em 0.5em 0 0;
+    padding: 0.5em 0.5em 1em 0;
+    .h2 {
+      text-align: left;
+      font-size: xx-large;
+      height: auto;
+      font-weight: bold !important;
+      margin: 0.5em 0.5em 0.5em 0.5em;
+      padding-left: 0em;
+    }
+    .p {
+      font-size: x-large;
+      text-align: justify;
+      text-justify: inter-word;
+      margin: 0 0.5em 0 0.5em;
+    }
+  }
+  .research {
+    width: 100%;
+    margin: 1em 0 1em 0;
+    .h2 {
+      font-weight: bold;
+      margin: 0.5em 0 0.5em 0;
+    }
+    .col-sm {
+      margin: 1em 1em 1em 1em;
+      padding: 0 0 0 0;
+      //border: 0.5em solid rgb(0, 0, 0);
+      position: relative;
+      overflow: hidden;
+
+      a {
+        text-decoration: none;
+        padding-bottom: 0;
+        figure {
+          text-decoration: none;
+          padding: 0 0 0 0;
+          .img {
+            border: 0.5em solid var(--lightColor);
+            overflow: hidden;
+            img {
+              width: 100%;
+              height: 300px;
+              -webkit-transition: all 1s;
+              transition: all 1s;
+            }
+            img:hover,
+            img:focus {
+              background-color: var(--lightBg);
+              opacity: 0.5;
+              -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+            }
+          }
+          figcaption {
+            color: var(--lightColor);
+            text-align: center;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+          }
+          figcaption:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .write {
+        display: none;
+        color: var(--lightBg);
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        a {
+          color: black !important;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .update {
+    font-size: large;
+    .h2 {
+      font-weight: bold;
+    }
+    ul {
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+  .ul-group ul {
+    color: black;
+  }
+
+  .padding-1 {
+    border: 0px solid red;
+  }
+
+  $duration: 10s;
+  * {
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  }
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-200%, 0, 0);
+      transform: translate3d(-200%, 0, 0);
+      visibility: visible;
+    }
+  }
+  .ticker-wrap {
+    display: block;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(115, 234, 243, 0.3);
+    padding-left: 100%;
+    margin-top: 1em;
+    //bottom: 0;
+    //position: fixed;
+    overflow: hidden;
+    //box-sizing: content-box;
+
+    .ticker {
+      display: inline-block;
+      height: 2em;
+      line-height: 2em;
+      white-space: nowrap;
+      padding-right: 100%;
+      box-sizing: content-box;
+
+      -webkit-animation-name: ticker;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-duration: $duration;
+
+      -moz-animation-name: ticker;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -moz-animation-duration: $duration;
+
+      -o-animation-name: ticker;
+      -o-animation-iteration-count: infinite;
+      -o-animation-timing-function: linear;
+      -o-animation-duration: $duration;
+
+      animation-name: ticker;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-duration: $duration;
+
+      &__item {
+        display: inline-block;
+        color: var(--lightColor);
+        font-size: 1em;
+        padding: 0 0;
+      }
+    }
+  }
+  .ticker-wrap:hover {
+    cursor: pointer;
+    .ticker {
+      -webkit-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  }
+}

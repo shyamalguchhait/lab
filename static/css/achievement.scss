@@ -1,0 +1,22 @@
+@import "fonts.scss";
+
+.achievement {
+  .h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  .h2 {
+    text-align: left;
+    font-size: x-large;
+  }
+  .h3 {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+  }
+  .p {
+    text-align: left;
+    font-size: large;
+    font-weight: normal;
+  }
+}

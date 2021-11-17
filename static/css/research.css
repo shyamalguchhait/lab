@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: black;
+  --lightemailColor: #ff0800;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+.research {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+}
+
+.h1 {
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+.p1 {
+  display: none;
+  font-family: "Comic Sans MS";
+}
+
+.padding-0 {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: large;
+  padding: 1em !important;
+}
+
+.padding-0 figure {
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+}
+
+.padding-0 figure img {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+
+.padding-0 figure figcaption {
+  text-align: center;
+}
+
+.padding-0 .write {
+  padding: 0.5em 0 0 0;
+}
+
+.poster a {
+  text-decoration: none;
+}
+
+.poster a figure figcaption {
+  color: var(--lightColor);
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.poster a figure figcaption:hover,
+.poster a figure figcaption:focus {
+  text-decoration: underline;
+}
+
+.poster a figure img {
+  width: 100%;
+  height: 300px;
+  border: 0.5em solid var(--lightColor);
+}
+/*# sourceMappingURL=research.css.map */

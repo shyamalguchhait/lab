@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: black;
+  --lightemailColor: #ff0800;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+.member {
+  display: block;
+  width: 1300px;
+  overflow-x: hidden;
+}
+
+.member .bg-img {
+  display: block;
+  text-align: center;
+  width: 1300px;
+  background: url("../image/0.png");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: top;
+  position: absolute;
+  overflow: hidden;
+}
+
+.member .bg-img img {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: auto auto;
+  margin-top: 300px;
+  position: relative;
+  overflow: visible;
+}
+
+.member .info {
+  padding-top: 600px;
+}
+
+.member .info .name {
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+}
+
+.member .info .name span {
+  font-weight: bold;
+}
+
+.member .info .email {
+  color: var(--lightColor);
+}
+
+.member .info .email .base {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .email .value {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .email .value a {
+  color: var(--lightemailColor);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.member .info .email .value a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.member .info .position .base {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .position .value {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.member .info .webpage .base {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .webpage .value {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member .info .webpage .value a {
+  color: var(--lightlinkColor);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.member .info .webpage .value a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.member .info .fill {
+  width: 50%;
+  text-align: justify;
+  font-size: large;
+  margin: auto;
+  position: relative;
+  text-justify: auto;
+}
+
+.member .info .fill a {
+  color: var(--lightColor);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.member .info .fill a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=member.css.map */

@@ -1,0 +1,64 @@
+@import "fonts.scss";
+
+.members {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  margin-left: 0px; /* Same as the width of the sidenav */
+  font-size: xx-large; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+  h2 {
+    font-size: xx-large;
+    margin-top: 1em;
+  }
+  .col-sm {
+    margin: auto;
+  }
+  .pf-img {
+    height: 250px;
+    margin-top: 2em;
+    img {
+      width: 250px;
+      height: 250px;
+      //border-radius: 100%;
+    }
+  }
+  .info {
+    .name {
+      font-size: x-large;
+      a {
+        color: var(--lightlinkColor);
+        text-decoration: none;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .email {
+      font-size: large;
+      a {
+        color: var(--lightemailColor);
+        text-decoration: none;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .current-position {
+      text-align: left;
+      font-size: large;
+      position: relative;
+    }
+  }
+  hr {
+    width: 100%;
+    color: var(--lightColor) !important;
+    background-color: var(--lightColor) !important;
+    height: 1px;
+    margin: 0 0;
+    margin-top: 1em;
+    border: 1px solid var(--lightColor);
+    border-width: 0;
+  }
+}

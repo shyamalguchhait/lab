@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: black;
+  --lightemailColor: #ff0800;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+body {
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+body .navbar-brand img {
+  width: 200px;
+}
+
+.bg-light {
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg) !important;
+  font-size: x-large !important;
+  font-family: "Century" !important;
+  font-weight: bold !important;
+}
+
+.nav-item-hover {
+  font-size: x-large;
+  font-weight: normal;
+  font-family: "Century";
+}
+
+.nav-item-hover a {
+  color: var(--lightColor) !important;
+  background-color: var(--lightBg);
+}
+
+.nav-item-hover:hover .nav-link {
+  color: var(--lightBg) !important;
+  background-color: var(--lightColor) !important;
+  cursor: pointer;
+}
+
+nav {
+  padding: 0 !important;
+  margin: 0;
+  background-color: var(--lightBg) !important;
+}
+
+.switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.switch input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switch label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55px;
+  height: 30px;
+  background: var(--lightBtn);
+  text-indent: -9999px;
+  margin: 0 auto;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.switch label:after {
+  content: "";
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  -webkit-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+}
+
+.switch input:checked + label {
+  background: #ffbd07;
+}
+
+.switch input:checked + label:after {
+  left: calc(100% - 5px);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+html.transition,
+html.transition *,
+html.transition *::before,
+html.transition *::after {
+  -webkit-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
+  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
+  -webkit-transition-delay: 0 !important;
+          transition-delay: 0 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  color: red;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(184, 30, 204, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgba(184, 30, 204, 0.5) !important;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,1 @@
+Diagnosing Heterogeneous Dynamics for CT Scan Images of Human Brain in Wavelet and MFDFA domain`Sabyasachi Mukhopadhyay, Soham Mandal, Nandan K Das, Subhadip Dey, Asish Mitra, Nirmalya Ghosh, Prasanta K Panigrahi`Advances in Optical Science and Engineering `2015`https://link.springer.com/chapter/10.1007/978-81-322-2367-2_42

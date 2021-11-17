@@ -1,0 +1,2 @@
+Development and eigenvalue calibration of an automated spectral Mueller matrix system for biomedical polarimetry`Harsh Purwar, Jalpa Soni, Harshit Lakhotia, Shubham Chandel, Chitram Banerjee, Nirmalya Ghosh`Proc. of SPIE, Vol. 8230, 823019`2012
+`https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8230/823019/Development-and-eigenvalue-calibration-of-an-automated-spectral-Mueller-matrix/10.1117/12.906668.short

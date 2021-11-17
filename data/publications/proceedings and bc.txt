@@ -1,0 +1,128 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Conference Proceeding:
+
+
+2019:
+-----
+Interferometric Measurement of Orbital Angular Momentum of Light`BS Athira, A Laha, S Das, S Mukherjee, N Ghosh, D Nandy`Frontiers in Optics, JTu3A. 21`2019
+
+2018:
+-----
+An Interferometer Approach For Quantifying Space Varying Polarization From Single Shot Measurement`BS Athira, M Pal, N Ghosh, D Nandy`AGU Fall Meeting`2018
+
+Quantitative polarimetric studies of Plasmonic quasicrystals`S Chandel, PR Ajith, AK Singh, KA Aneeth, A Venugopal, N Ghosh`Nanophotonics VII 10672, 106722P
+`2018
+
+Weak value amplification of Geometric Spin Hall shift of light beam`M Pal, A Das, S Goswami, N Ghosh`Nanophotonics VII 10672, 106721P`2018
+
+Enhancing transverse spin and transverse spin momentum in micro-and nano-optical systems`S Saha, AK Singh, N Ghosh, SD Gupta`Nanophotonics VII 10672, 
+106722Y`2018
+
+Observation of weak value amplification in polarization-tailored Fano interference in waveguided plasmonic crystals`A Singh, S Ray, S Chandel, S Pal, 
+A Mandal, P Mitra, N Ghosh`APS 2018, E12. 002`2018
+
+2017:
+-----
+
+2016:
+-----
+Spin Hall effect of Light by Tailoring Space varying Polarization`M Pal, BS Athira, J Mishra, D Nandy, N Ghosh`International Conference on Fibre Optics and 
+Photonics, Th4E. 1`2016
+
+Spin optical effects in Plasmonics`N Ghosh`International Conference on Fibre Optics and Photonics, Th2E. 2`2016
+
+Multifractality in depth dependent tissue refractive index variations probed via low-coherence back scattering spectroscopy`R Dey, NK Das, S Chakraborty, 
+SB Muvva, N Ghosh`Biophotonics: Photonic Solutions for Better Health Care V 9887, 988732`2016
+
+
+2015:
+-----
+
+2014:
+-----
+Fractal anisotropy in tissue refractive index fluctuations: potential role in precancer detection`Nandan Kumar Das, Subhasri Chatterjee, Semanti Chakraborty,
+P. K. Panigrahi, A. Pradhan, N. Ghosh`Proceedings Volume 9129, Biophotonics: Photonic Solutions for Better Health Care IV`2014`https://doi.org/10.1117/12.205
+1964.
+
+Wavelet and multi-fractal based analysis on DIC images in epithelium region to detect and diagnose the cancer progress among different grades of tissues
+`Sabyasachi Mukhopadhyay, Nandan K. Das, Asima Pradhan, Nirmalya Ghosh, Prasanta K. Panigrahi`Proc. SPIE 9129, Biophotonics: Photonic Solutions for 
+Better Health Care IV, 91290Z`2014`https://doi.org/10.1117/12.2051854
+
+Giant enhancement of Spin Hall effect of light in an exotic optical system`Ankan Bag, Shubham Chandel, Chitram Banerjee, Debashis Saha, Mandira Pal, 
+Ayan Banerjee, Nirmalya Ghosh`Proc. SPIE 9126, Nanophotonics V, 91262E`2014`https://spie.org/Publications/Proceedings/Paper/10.1117/12.2051798?SSO=1
+
+Pre-cancer detection by wavelet transform and multi-fractality in various grades of DIC stromal images`Sabyasachi Mukhopadhyay, Nandan K. Das, 
+Asima Pradhan, Nirmalya Ghosh, Prasanta K. Panigrahi`Proc. SPIE 8942, Dynamics and Fluctuations in Biomedical Photonics XI, 89420H`2014`
+https://doi.org/10.1117/12.2040235
+
+2013:
+-----
+Mueller matrix polarimetry of Plasmon resonant silver nano-rods: biomedical prospects`Jalpa Soni, Sayantan Ghosh, Sudipta K. Bera, Ayan Banerjee,
+Nirmalya Ghosh`Proc. SPIE 8699, Saratov Fall Meeting 2012, 869902`2013
+
+Quantitative spectral light scattering polarimetry for monitoring fractal growth pattern of Bacillus thuringiensis bacterial colonies`Paromita Banerjee, 
+Jalpa Soni, Nirmalya Ghosh, Tapas K. Sengupta`Proc. SPIE 8699, Saratov Fall Meeting 2012, 86990F`2013
+
+Probing multi-scale self-similarity of the tissue structures using light scattering spectroscopy, prospects in pre-cancer detection`Subhasri Chatterjee, 
+Nandan K. Das, Satish Kumar, Sonali Mohapatra, Asima Pradhan, Prasanta K. Panigrahi, Nirmalya Ghosh`Proc. SPIE 8699, Saratov Fall Meeting 2012: Optical 
+Technologies in Biophysics and Medicine XIV; and Laser Physics and Photonics XIV, 86990D`2013
+
+Mueller matrix polarimetry in fluorescence scattering from biological tissues`J Soni, S Chandel, J Jagtap, A Pradhan, N Ghosh`Frontiers in Optics, FW5A. 3
+`2013
+
+2012:
+-----
+Development and eigenvalue calibration of an automated spectral Mueller matrix system for biomedical polarimetry`Harsh Purwar, Jalpa Soni, Harshit Lakhotia, 
+Shubham Chandel, Chitram Banerjee, Nirmalya Ghosh`Proc. of SPIE, Vol. 8230, 823019`2012
+
+A LIGHT SCATTERING-BASED APPROACH FOR QUANTIFYING TISSUE MULTIFRACTALITY: PROSPECTS IN EARLY DIAGNOSISOFCANCER`Nandan Das, Subhasri Chatterjee, Satish Kumar, 
+Harsh Purwar, Prasanta Panigrahi, Nirmalya Ghosh`Conference Paper Frontiers in Optics, Rochester, NY, Biological and Biomedical Optics (FTh4C), Page FTh4C.2
+`2012
+
+Polarimetric investigation of quadrupolar and dipolar plasmonic resonances in silver nano-rods`Sayantan Ghosh, Jalpa Soni, Sudipta K. Bera, Ayan Banerjee 
+Nirmalya Ghosh`Frontiers in Optics 2012/Laser Science XXVIII, OSA Technical Digest (online)`2012
+
+Development and Eigenvalue calibration of an automated spectral Mueller matrix system for biomedical polarimetry`Harsh Purwar, Jalpa Soni, HarshitLakhotia, 
+ShubhamChandel, Chitram Banerjee, Nirmalya Ghosh`Proc. of SPIE, 8230, 823019`2012
+
+2011:
+-----
+Probing Tissue Multifractality Using Wavelet based Multifractal Detrended Fluctuation Analysis: Applications in Precancer Detection`Jalpa Soni, 
+Gregor P. Jose, Sayantan Ghosh, Asima Pradhan, Tapas. K. Sengupta, Prasanta K. Panigrahi, Nirmalya Ghosh`4th International Conference on Biomedical 
+Engineering and Informatics (BMEI), IEEE Explore, 1, 452 - 456`2011
+
+Enhanced polarization anisotropy of metal nanoparticles and their spectral characteristics in the surface plasmon resonance band`Jalpa Soni, Harsh Purwar, 
+Nirmalya Ghosh`PLASMONICS: METALLIC NANOSTRUCTURES AND THEIR OPTICAL PROPERTIES IX (Proc. SPIE), 8096, 809624`2011
+
+Probing Tissue Multifractality Using Wavelet based MultifractalDetrended Fluctuation Analysis: Applications in Precancer Detection`Jalpa Soni, 
+Gregor P. Jose, Sayantan Ghosh, AsimaPradhan, Tapas. K. Sengupta, Prasanta K. Panigrahi, Nirmalya Ghosh`2011 4th International Conference on Biomedical 
+Engineering and Informatics (BMEI), 1, 448-452`2011
+
+2010:
+-----
+Quantitative Turbid Medium Polarimetry using Mueller Matrix Decomposition`J. Soni, Nirmalya Ghosh, Ayan Banerjee, M. F. G. Wood, M. A. Wallenberg, 
+I. A. Vitkin`International Conference on Fiber Optics and Photonics (Photonics 2010), IIT-Guwahati, India`2010
+
+Polarization Characteristics of Metal Nanoparticles in the Surface Plasmon Band`Jalpa Soni, Nitin Kaushal, Ayan Banerjee, Nirmalya Ghosh`International 
+Conference on Fiber Optics and Photonics (Photonics 2010), IIT-Guwahati, India`2010
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Book Chapters:
+
+Mueller Matrix Approach for Engineering Asymmetric Fano-resonance Line Shape in Anisotropic Optical System`Fano Resonances in Optics and Microwaves, 57-83`
+AK Singh, S Chandel, SK Ray, P Mitra, N Ghosh`2018
+
+Quantitative polarimetry for tissue characterization and diagnosis`Chapter 13, Advanced Biophotonics, Tissue optical sectioning`Edited by Ruikang K. Wang, 
+Valery V. Tuchin, Taylor and Francis Publishing`David Layden, Nirmalya Ghosh, Alex vitkin`2012
+
+Polarized light assessment of complex turbid media such as biological tissues using Mueller matrix decomposition`Chapter 9, Handbook of Photonics for 
+Biomedical Science`Edited by Valery V. Tuchin, Taylor and Francis Publishing`pp 253-282`Nirmalya Ghosh, Michael Wood, Alex Vitkin`2010
+
+Towards noninvasive glucose sensing using polarization analysis of multiply scattered light`Chapter -17, Handbook of Optical Sensing of Glucose in 
+Biological Fluids and Tissues`Edited by Valery V. Tuchin, Series in Medical Physics and Biomedical Engineering Volume: 12, Taylor and Francis Publishing
+`Michael F. G. Wood, Nirmalya Ghosh, Xinxin Guo, I. Alex Vitkin`2008
+
+Lasers and laser tissue interaction; Fundamentals & Applications of Biophotonics in Dentistry`Ed. A Kishen and A Asundi`Imperial College Press, London, 
+pp. 123-148`P. K. Gupta, N. Ghosh, and H. S. Patel`2007
+

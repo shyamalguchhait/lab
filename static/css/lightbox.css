@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/CENTURY.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold.ttf") format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/ceiswfte.ttf") format("TrueType");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century";
+  src: url("./fonts/century/Century Bold Italic.ttf") format("TrueType");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background: var(--lightBg);
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightlinkColor: #1111ff;
+  --lightwelColor: #eee;
+  --lightwelBg: rgb(14, 108, 104);
+  --lighttikcerColor: black;
+  --lightemailColor: #ff0800;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #efbd07;
+  --lightBg: #232323;
+  --lightColor: #fff;
+  --lightlinkColor: #eeee11;
+  --lightwelColor: #111;
+  --lightwelBg: rgb(241, 147, 151);
+  --lighttickerColor: rgba(rgb(65, 73, 78), 0.3);
+  --lightemailColor: #00f7ff;
+}
+
+body {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  font-family: "Century" !important;
+  padding-bottom: 30px !important;
+}
+
+.h1 {
+  font-family: "Century" !important;
+  text-align: center;
+}
+
+body {
+  background-color: var(--lightBg);
+}
+
+.lightbox {
+  display: block;
+  overflow: visible;
+}
+
+.lightbox .padding-0 img {
+  width: 100%;
+  height: 20vh;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.lightbox .padding-0 img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  width: 100%;
+  height: 90vh;
+  background-color: var(--lightBg);
+  z-index: 1;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: auto;
+  /* The Close Button */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Number text (1/3 etc) */
+}
+
+.modal .view-img {
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  padding: 0 !important;
+  border: 0 !important;
+  margin: 0 !important;
+  /* Modal Content */
+}
+
+.modal .view-img .slides {
+  display: none;
+  width: auto;
+  background-color: var(--lightBg);
+}
+
+.modal .view-img .modal-content {
+  position: relative;
+  background-color: var(--lightBg);
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.modal .view-img figure img {
+  width: 100%;
+  height: 40vh;
+  max-height: 50vh;
+  min-width: 300px;
+  max-width: 1900px;
+  color: var(--lightColor);
+  background-color: var(--lightBg);
+  display: block;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modal .view-img figure figcaption {
+  display: none;
+  background-color: var(--lightBg);
+}
+
+.modal .close {
+  width: auto;
+  height: 3ex;
+  color: #f00;
+  background-color: #000;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 0ex 1ex 0ex 1ex;
+  margin-bottom: -3ex;
+  position: relative;
+  float: right;
+  z-index: +1;
+  cursor: pointer;
+  /*
+    .color-fbg {
+      color: red;
+      background-color: black;
+      padding: 0 1ex 0 1ex;
+      margin-right: -200px;
+      position: absolute;
+    }
+    .color-fbg:hover,
+    .color-fbg:focus {
+      color: black;
+      background-color: red;
+    }*/
+}
+
+.modal .close:hover,
+.modal .close:focus {
+  color: #000;
+  background-color: #f00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal .prev,
+.modal .next {
+  color: #b37aca !important;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: var(--lightBg);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+.modal .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.modal .prev:hover,
+.modal .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal .numbertext {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.modal .scroll {
+  position: relative;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
+
+.modal .scroll .image-small-show img {
+  width: 100%;
+  height: 20vh;
+  opacity: 0.5;
+}
+
+.modal .scroll .image-small-show:hover img,
+.modal .scroll .image-small-show:focus img,
+.modal .scroll .image-small-show:active img {
+  opacity: 1;
+}
+
+.modal .scroll .active {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=lightbox.css.map */

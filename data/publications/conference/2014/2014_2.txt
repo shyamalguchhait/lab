@@ -1,0 +1,2 @@
+Wavelet and multi-fractal based analysis on DIC images in epithelium region to detect and diagnose the cancer progress among different grades of tissues`Sabyasachi Mukhopadhyay, Nandan K. Das, Asima Pradhan, Nirmalya Ghosh, Prasanta K. Panigrahi`Proc. SPIE 9129, Biophotonics: Photonic Solutions for 
+Better Health Care IV, 91290Z`2014`https://doi.org/10.1117/12.2051854
