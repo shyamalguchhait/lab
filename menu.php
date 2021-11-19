@@ -7,6 +7,13 @@
             <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="navbar-brand">
+                <div class="switch">
+                    <input class="toggle" type="checkbox" id="switch" name="mode">
+                    <label for="switch"> Toggle </label>
+                </div>
+            </div>
+            
             <div class="d-flex flex-row-reverse">
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
@@ -52,10 +59,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="switch">
-                <input class="toggle" type="checkbox" id="switch" name="mode">
-                <label for="switch"> Toggle </label>
             </div>
         </div>
     </nav>
