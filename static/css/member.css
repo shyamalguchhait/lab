@@ -56,40 +56,47 @@ body {
 
 .member {
   display: block;
-  width: 1300px;
+  width: 100%;
   overflow-x: hidden;
 }
 
 .member .bg-img {
-  display: block;
   text-align: center;
-  width: 1300px;
-  background: url("../image/0.png");
+  height: 500px;
+  background-image: url("../image/0.png");
   background-repeat: no-repeat;
   background-size: 100% 500px;
   background-attachment: fixed;
   background-position-x: center;
   background-position-y: top;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 
-.member .bg-img img {
+.member .bg-img .pf-img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-left: -100px;
+  bottom: 0px;
+  left: 50%;
+  position: absolute;
+  overflow: visible;
+}
+
+.member .bg-img .pf-img img {
   display: block;
   text-align: center;
+  border-radius: 50%;
   width: 200px;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
-  margin: auto auto;
-  margin-top: 300px;
-  position: relative;
-  overflow: visible;
 }
 
 .member .info {
-  padding-top: 600px;
+  padding-top: 50px;
 }
 
 .member .info .name {
@@ -106,16 +113,36 @@ body {
   color: var(--lightColor);
 }
 
-.member .info .email .base {
-  text-align: right;
-  margin: 10px;
-  padding: 10px;
+@media (orientation: landscape) {
+  .member .info .email .base {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
-.member .info .email .value {
-  text-align: left;
-  margin: 10px;
-  padding: 10px;
+@media (orientation: portrait) {
+  .member .info .email .base {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: landscape) {
+  .member .info .email .value {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: portrait) {
+  .member .info .email .value {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
 .member .info .email .value a {
@@ -129,29 +156,72 @@ body {
   text-decoration: underline;
 }
 
-.member .info .position .base {
-  text-align: right;
-  margin: 10px;
-  padding: 10px;
+@media (orientation: landscape) {
+  .member .info .position .base {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: portrait) {
+  .member .info .position .base {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
 .member .info .position .value {
-  text-align: left;
-  margin: 10px;
-  padding: 10px;
   font-weight: bold;
 }
 
-.member .info .webpage .base {
-  text-align: right;
-  margin: 10px;
-  padding: 10px;
+@media (orientation: landscape) {
+  .member .info .position .value {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
-.member .info .webpage .value {
-  text-align: left;
-  margin: 10px;
-  padding: 10px;
+@media (orientation: portrait) {
+  .member .info .position .value {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: landscape) {
+  .member .info .webpage .base {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: portrait) {
+  .member .info .webpage .base {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: landscape) {
+  .member .info .webpage .value {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (orientation: portrait) {
+  .member .info .webpage .value {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
 .member .info .webpage .value a {

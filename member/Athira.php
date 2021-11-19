@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="../image/members/img_Athira B S.jpg" alt="Athira B S">
+                        <div class="pf-img"><img src="../image/members/img_Athira B S.jpg" alt="Athira B S"></div>
                     </div>
                 </div>
             </div>

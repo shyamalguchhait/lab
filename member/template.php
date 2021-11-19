@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="iimage" alt="nname">
+                        <div class="pf-img"><img src="iimage" alt="nname"></div>
                     </div>
                 </div>
             </div>

@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="../image/members/img_Niladri Modak.jpg" alt="Niladri Modak">
+                        <div class="pf-img"><img src="../image/members/img_Niladri Modak.jpg" alt="Niladri Modak"></div>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <div class="base">Email</div>
                     </div>
                     <div class="col-sm email">
-                        <div class="value"><a href="mailto:nm16ip018@iiserkol.ac.in,">nm16ip018@iiserkol.ac.in,</a></div>
+                        <div class="value"><a href="mailto:nm16ip018@iiserkol.ac.in">nm16ip018@iiserkol.ac.in</a></div>
                     </div>
                 </div>
                 <div class="row">
@@ -49,7 +49,8 @@
                         <div class="base">Curent position</div>
                     </div>
                     <div class="col-sm position">
-                        <div class="value">SRF</div>
+                        <div class="value">SRF
+</div>
                     </div>
                 </div>
                 <div class="row">

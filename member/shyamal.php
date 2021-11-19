@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="../image/members/img_Shyamal Guchhait.jpg" alt="Shyamal Guchhait">
+                        <div class="pf-img"><img src="../image/members/img_Shyamal Guchhait.jpg" alt="Shyamal Guchhait"></div>
                     </div>
                 </div>
             </div>
