@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="../image/members/img_Himanshu.jpg" alt="Himanshu">
+                        <div class="pf-img"><img src="../image/members/img_Himanshu.jpg" alt="Himanshu"></div>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <div class="fill">Atharva is currently pursuing Integrated BS-MS Dual Degree program at the Department of Physical Sciences, INSPIRE  Fellow. His research interests include orbital angular momentum and polarization to probe the properties of turbid media.</div>
+                            <div class="fill">Himanshu is currently pursuing Integrated BS-MS Dual Degree program at the Department of Physical Sciences, KVPY  Fellow. His research interests include Mueller matrix in different medium.</div>
                         </div>
                     </div>
                 </div>

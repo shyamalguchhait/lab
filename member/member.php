@@ -1,6 +1,6 @@
 <?php require "path.php" ?>
 <?php
-$folder = "/grad/";
+$folder = "/undergrad/";
 $array = scandir($pathmem . $folder);
 $list = count($array);
 for ($i = 2; $i < $list; $i++) {

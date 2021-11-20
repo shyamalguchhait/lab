@@ -24,9 +24,9 @@
     <div class="container">
         <div class="member">
             <div class="bg-img">
-                <div class="row">
+                <div class="row"> 
                     <div class="col-sm">
-                        <img src="../image/members/img_Priyanuj Bordoloi.jpg" alt="Priyanuj Bordoloi">
+                        <div class="pf-img"><img src="../image/members/img_Priyanuj Bordoloi.jpg" alt="Priyanuj Bordoloi"></div>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <div class="fill">Atharva is currently pursuing Integrated BS-MS Dual Degree program at the Department of Physical Sciences, INSPIRE  Fellow. His research interestsinclude orbital angular momentum and polarization to probe the properties of turbid media.</div>
+                            <div class="fill">Priyanuj is currently pursuing Integrated BS-MS Dual Degree program at the Department of Physical Sciences, INSPIRE  Fellow. His research interests includes studying Joint weak value in classical optics.</div>
                         </div>
                     </div>
                 </div>
