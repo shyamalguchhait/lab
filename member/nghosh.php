@@ -57,7 +57,7 @@
                         <div class="base">Webpage</div>
                     </div>
                     <div class="col-sm webpage">
-                        <div class="value"><a href="https://students.iiserkol.ac.in/~https://www.iiserkol.ac.in/web/en/people/faculty/dps/nghosh">https://www.iiserkol.ac.in/web/en/people/faculty/dps/nghosh</a></div>
+                        <div class="value"><a href="https://students.iiserkol.ac.in/~https://www.iiserkol.ac.in/web/en/people/faculty/dps/nghosh">nghosh</a></div>
                     </div>
                     <div class="row">
                         <div class="col-sm">
