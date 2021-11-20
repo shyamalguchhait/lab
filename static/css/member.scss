@@ -74,11 +74,11 @@
 
         a {
           color: var(--lightemailColor);
-          font-weight: normal;
           text-decoration: none;
+          font-weight: normal;
+          font-style: italic;
         }
         a:hover {
-          font-weight: bold;
           text-decoration: underline;
         }
       }
@@ -120,11 +120,11 @@
         }
         a {
           color: var(--lightlinkColor);
-          font-weight: normal;
           text-decoration: none;
+          font-weight: normal;
+          font-style: italic;
         }
         a:hover {
-          font-weight: bold;
           text-decoration: underline;
         }
       }
@@ -136,6 +136,9 @@
       margin: auto;
       position: relative;
       text-justify: auto;
+      @media (orientation: portrait) {
+        width: 100%;
+      }
       a {
         color: var(--lightColor);
         text-decoration: none;

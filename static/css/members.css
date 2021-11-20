@@ -32,7 +32,7 @@ html {
   --lightwelColor: #eee;
   --lightwelBg: rgb(14, 108, 104);
   --lighttikcerColor: black;
-  --lightemailColor: #ff0800;
+  --lightemailColor: #4d00dd;
 }
 
 html[data-theme="dark"] {
@@ -64,6 +64,12 @@ body {
   padding: 0px 0px;
 }
 
+@media (orientation: portrait) {
+  .members {
+    margin-left: 0.5em;
+  }
+}
+
 .members h2 {
   font-size: xx-large;
   margin-top: 1em;
@@ -74,13 +80,17 @@ body {
 }
 
 .members .pf-img {
+  width: 100%;
   height: 250px;
+  margin: 0 auto;
   margin-top: 2em;
 }
 
 .members .pf-img img {
   width: 250px;
   height: 250px;
+  text-align: center;
+  margin: auto;
 }
 
 .members .info .name {
@@ -90,10 +100,10 @@ body {
 .members .info .name a {
   color: var(--lightlinkColor);
   text-decoration: none;
+  font-style: italic;
 }
 
 .members .info .name a:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -104,10 +114,10 @@ body {
 .members .info .email a {
   color: var(--lightemailColor);
   text-decoration: none;
+  font-style: italic;
 }
 
 .members .info .email a:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 

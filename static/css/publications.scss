@@ -11,10 +11,10 @@
     a {
       color: var(--lightlinkColor);
       text-decoration: none;
+      font-style: italic;
       cursor: pointer;
     }
     a:hover {
-      font-weight: bolder;
       text-decoration: underline;
     }
   }

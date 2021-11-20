@@ -23,10 +23,9 @@
         a {
           color: var(--lightlinkColor);
           text-decoration: none;
+          font-style: italic;
         }
         a:hover {
-          color: var(--lightlinkColor);
-          font-weight: bold;
           text-decoration: underline;
         }
       }

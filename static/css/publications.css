@@ -32,7 +32,7 @@ html {
   --lightwelColor: #eee;
   --lightwelBg: rgb(14, 108, 104);
   --lighttikcerColor: black;
-  --lightemailColor: #ff0800;
+  --lightemailColor: #4d00dd;
 }
 
 html[data-theme="dark"] {
@@ -65,11 +65,11 @@ body {
 .publications .title a {
   color: var(--lightlinkColor);
   text-decoration: none;
+  font-style: italic;
   cursor: pointer;
 }
 
 .publications .title a:hover {
-  font-weight: bolder;
   text-decoration: underline;
 }
 /*# sourceMappingURL=publications.css.map */

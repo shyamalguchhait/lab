@@ -32,7 +32,7 @@ html {
   --lightwelColor: #eee;
   --lightwelBg: rgb(14, 108, 104);
   --lighttikcerColor: black;
-  --lightemailColor: #ff0800;
+  --lightemailColor: #4d00dd;
 }
 
 html[data-theme="dark"] {
@@ -147,12 +147,12 @@ body {
 
 .member .info .email .value a {
   color: var(--lightemailColor);
-  font-weight: normal;
   text-decoration: none;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .member .info .email .value a:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -226,12 +226,12 @@ body {
 
 .member .info .webpage .value a {
   color: var(--lightlinkColor);
-  font-weight: normal;
   text-decoration: none;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .member .info .webpage .value a:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -242,6 +242,12 @@ body {
   margin: auto;
   position: relative;
   text-justify: auto;
+}
+
+@media (orientation: portrait) {
+  .member .info .fill {
+    width: 100%;
+  }
 }
 
 .member .info .fill a {
