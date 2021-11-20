@@ -3,20 +3,10 @@
 <html>
 
 <head>
-    <!-- CSS only -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="IISER Kolkata BioNaP group official webpage">
-    <meta name="keywords" content="Research, Publication, Member, Visitor, Collaborator">
-    <meta name="author" content="">
-    <title>Team</title>
-    <link href="./static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <script src="./static/bootstrap-5.0.2-dist/popperjs/popper.min.js" type="text/javascript"></script>
-    <script src="./static/bootstrap-5.0.2-dist/popperjs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
-    <script src="./static/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <?php include "lib.php"; ?>
+    <title>BioNaP Group-IISER Kolkata: Team</title>
     <link rel="stylesheet" href="./static/css/members.css" type="text/css">
-    <link rel="shortcut icon" href="./image/logo.png">
+    <script src = "./static/js/members.js" type="text/javascript"></script>
     <script>
         $(document).ready(function() {
             $('#someLinkId').click();
@@ -128,9 +118,9 @@
                                 <div class="info">
                                     <div class="name">
                                         <?php if ($qualification == "#") { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } else { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } ?>
                                     </div>
                                     <div class="email">
@@ -195,9 +185,9 @@
                                 <div class="info">
                                     <div class="name">
                                         <?php if ($qualification == "#") { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } else { ?>
-                                            <a href="./member/<?php echo $array[$i] ?>.php"><?php echo $name ?></a>
+                                            <a href="./member/<?php echo $array[$i] ?>.php" target = "_blank"><?php echo $name ?></a>
                                         <?php } ?>
                                     </div>
                                     <div class="email">
