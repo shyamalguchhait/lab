@@ -48,17 +48,17 @@
                 <figcaption>Mueller matrix measurment</figcaption><img src="./image/research/1/MM.png" alt="">
               </figure>
             </a></div>
-          <div class="col-sm"><a href="./image/research/1/GP polarimeter.png">
+          <div class="col-sm"><a href="views.php?i=1/GP polarimeter.png">
               <figure>
                 <figcaption>Geometric phase polarimeter</figcaption><img src="./image/research/1/GP polarimeter.png" alt="">
               </figure>
             </a></div>
-          <div class="col-sm"><a href="./image/research/1/SHEL.png">
+          <div class="col-sm"><a href="views.php?i=1/SHEL.png">
               <figure>
                 <figcaption>Spin specific Hall effect</figcaption><img src="./image/research/1/SHEL.png" alt="">
               </figure>
             </a></div>
-          <div class="col-sm"><a href="./image/research/1/OHEL.png">
+          <div class="col-sm"><a href="views.php?i=1/OHEL.png">
               <figure>
                 <figcaption>Orbital Hall effect</figcaption><img src="./image/research/1/OHEL.png" alt="">
               </figure>

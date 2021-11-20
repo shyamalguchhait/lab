@@ -1,13 +1,12 @@
 RewriteEngine on
+RewriteRule ^(bionapdata|bionapdata/former|bionapdata/Former\sPhD\sand\sPost-Docs|bionapdata/grad|bionapdata/grplead|bionapdata/prjct|bionapdata/undergrad)/_?$ - [F,L]
+RewriteRule ^(data|data/archievement|data/extra|data/extra/col|data/extra/vis|data/publications)/_?$ -[F,L]
 RewriteRule ^(image/|statics/|data/|bionapdata/)/_?$ - [F,L]
-RewriteRule ^(image/extra|image/icon|image/index|image/lightbox}image/members|image/research)/_?$ - [F,L]
-RewriteRule ^(statics/css|statics/bootstrap|statics/js|statics/html)/_?$ - [F,L]
-RewriteRule ^(statics|data|bionapdata)/_?$ - [F,L]
-RewriteRule ^(data/extra|data/archievement|data/publications)/_?$ - [F,L]
-<Directory /var/www/html>
-AllowOverride All
-<Directory>
-<VirtualHost _:80>
-DocumentRoot /var/www/html/
-ErrorDocument 404 http://localhost/lab/web/web/lab/custom-404.php
-</VirtualHost>
+RewriteRule ^(image|image/extra|image/icon|image/index|image/lightbox|image/members|image/research)/_?$ - [F,L]
+RewriteRule ^(library)/_?$ - [F,L]
+RewriteRule ^(member)/_?$ - [F,L]
+RewriteRule ^(static/bootstrap-5.0.2-dist|static/css|static/html|statics/image|static/js)/_?$ - [F,L]
+RewriteRule ^(bionapdata|data|fonts|image|library|member|static)/_?$ - [F,L]
+
+ErrorDocument 404 /custom-404.php
+
