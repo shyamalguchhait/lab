@@ -78,11 +78,11 @@ body {
 .p a {
   color: var(--lightlinkColor);
   text-decoration: none;
+  font-style: italic;
 }
 
 .p a:hover {
   color: var(--lightlinkColor);
-  font-weight: bold;
   text-decoration: underline;
 }
 /*# sourceMappingURL=contact.css.map */
